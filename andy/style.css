@@ -1,3 +1,35 @@
 * {
-  color: red;
+  margin: 0px;
+  padding: 0px;
 }
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.album-cover {
+  width: 50%;
+  margin: 1rem 1rem 1rem 1rem;
+  border-radius: 10px;
+}
+
+body {
+  height: 100vh;
+  background-size: ;
+  background-image: url("./images/nightbackground.jpg");
+}
+
+.track-list {
+  list-style-type: none;
+}
+
+/* .album-cover:hover {
+  transition: 
+  
+}
+
+.album-cover:hover::after {
+
+} */
