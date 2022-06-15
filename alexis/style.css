@@ -1,0 +1,52 @@
+*{
+    color: white;
+}
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    /* cursor: url('../alexis/assets/images/grinch-icon.png'), auto;	 */
+  }
+  
+  header {
+    background-color: black;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+  }
+
+  .footer {
+    position: sticky;
+    left: 0;
+    bottom: 0;
+    width: 75%;
+  }
+
+  .albumItemContainer {
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-evenly;
+  }
+  
+  .albumImageContainer {
+    background-color: black; 
+    width: 70%;
+    text-align: center;
+    padding: 4%;
+  }
+
+  .albumDescriptionContainer{
+    background-color: black;
+    width: 70%;
+    text-align: center;
+    padding: 4%;
+    color: white;
+    align-self: center;
+  }
+
+  .footerImageContainer{
+    /* align-self: center; */
+  }
+
+  .footerTextContainer{
+    /* align-self: center; */
+  }
