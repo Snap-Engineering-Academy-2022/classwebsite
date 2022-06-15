@@ -1,11 +1,18 @@
 * {
   margin: 0px;
   padding: 0px;
+  font-family: "Varela Round", sans-serif;
 }
 
 body {
   height: 100vh;
-  background-image: url("./images/nightbackground.jpg");
+  /* background-image: url("./images/nightbackground.jpg"); */
+  background: rgb(6, 6, 6);
+  background: linear-gradient(
+    326deg,
+    rgba(6, 6, 6, 1) 0%,
+    rgba(106, 133, 173, 1) 100%
+  );
 }
 
 .cols-2 {
@@ -29,10 +36,11 @@ body {
 .album-cover {
   width: 100%;
   aspect-ratio: 1/1;
-  border-radius: 10px;
+  border-radius: 15px;
 }
 
 .album-title {
+  padding: 1rem 0rem 0rem 0.5rem;
   color: white;
 }
 
@@ -41,25 +49,44 @@ body {
 }
 
 .album-card {
-  padding: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  font-size: 1.25rem;
+  padding: 3rem;
   width: 75%;
   background-color: #212121;
   aspect-ratio: 1/1;
   border-radius: 5px;
+  transition: 1000ms ease-in-out, box-shadow;
+}
+
+.album-card:hover {
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
 .track-list {
-  font-size: 2rem;
+  font-size: 1.25rem;
+  font-weight: lighter;
   color: white;
   list-style-type: none;
 }
 
 .track-card {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
   width: 100%;
   margin: 0.5rem;
   border-radius: 10px;
-  background-color: gray;
+  background-color: #212121;
   padding: 1rem;
+  transition: 250ms ease-in-out;
+}
+
+.track-card:hover {
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
 .track-title {
