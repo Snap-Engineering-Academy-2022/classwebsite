@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    text-align: center;
+    background-image: url("assets/background.avif"); 
+    color: white;
+    animation: loadTransition 0.7s;
+}
+
+img{
+    height: 700px;
+}
+img:hover{
+    opacity: 0.5;
+    color: white;
+}
+
+
+@keyframes loadTransition{
+
+    from{
+        opacity: 0;
+        transform: translateY(-20px);
+      
+    }
+    to{
+        opacity: 1;
+       transform: translate(0);
+    }
+}
+
+
+
+.title{
+    font-family: 'Nothing You Could Do', cursive;
+    font-size: 60px;
+}
+
+.album-info{
+    font-family: 'Overpass Mono', monospace;
+    font-size: 28px;
+    width:1200px;
+    margin: 0 auto;
+   
+}
+
