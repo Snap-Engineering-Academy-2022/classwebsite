@@ -111,6 +111,10 @@ nav ul li a {
     background-image: url(images/planet.jpeg);
 }
 
+.card4 {
+    background-image: url(images/greatest.jpeg);
+}
+
 .spotify {
     width: 100%;
     height: 100vh;
