@@ -11,11 +11,10 @@ h1{
 
 .container {
   display: flex;
-  justify-content: space-between;
+  justify-content:first baseline;
   width: 500spx;
   overflow: hidden;
   flex-wrap: wrap;
-  columns: row;
   padding: 5% 5% 1% 5%;
 }
 #content {
