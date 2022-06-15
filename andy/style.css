@@ -3,33 +3,65 @@
   padding: 0px;
 }
 
-.flex {
+body {
+  height: 100vh;
+  background-image: url("./images/nightbackground.jpg");
+}
+
+.cols-2 {
+  display: grid;
+  grid-template-columns: 66% 33%;
+}
+
+.flex-col {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.flex-row {
   display: flex;
   justify-content: center;
+  flex-direction: row;
   align-items: center;
 }
 
 .album-cover {
-  width: 50%;
-  margin: 1rem 1rem 1rem 1rem;
+  width: 100%;
+  aspect-ratio: 1/1;
   border-radius: 10px;
 }
 
-body {
-  height: 100vh;
-  background-size: ;
-  background-image: url("./images/nightbackground.jpg");
+.album-title {
+  color: white;
+}
+
+.container {
+  margin: 2rem 5rem 2rem 5rem;
+}
+
+.album-card {
+  padding: 1rem;
+  width: 75%;
+  background-color: #212121;
+  aspect-ratio: 1/1;
+  border-radius: 5px;
 }
 
 .track-list {
+  font-size: 2rem;
+  color: white;
   list-style-type: none;
 }
 
-/* .album-cover:hover {
-  transition: 
-  
+.track-card {
+  width: 100%;
+  margin: 0.5rem;
+  border-radius: 10px;
+  background-color: gray;
+  padding: 1rem;
 }
 
-.album-cover:hover::after {
-
-} */
+.track-title {
+  flex-shrink: 0;
+}
