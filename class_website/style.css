@@ -21,6 +21,10 @@ h2{
     margin-bottom: 50px;
     font-size: 30px;
 }
+h3{
+    text-align: center;
+    margin-bottom: 10px;
+}
 .container{
     display: flex;
     margin-left: 50px;
@@ -43,6 +47,7 @@ h2{
     font-size: 24px;
     letter-spacing: 2px;
     line-height: 160%;
+    margin-bottom: 15px;
 }
 .ele1{
     text-decoration: none;
@@ -58,24 +63,29 @@ h2{
     font-size: 20px;
 }
 .logo-style{
-    list-style-type: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
     text-align: center;
 }
+.logo-style li{
+    list-style-type: none;
+    /* display: flex;
+    flex-direction: row;
+    justify-content: start; */
+    display: inline;
+    margin: 10px;
+}
+
 .logo1{
-    flex: 50%;
-    width: 10%;
+    /* flex: 50%; */
+    width: 2%;
     height: auto;
 }
 .logo2{
-    flex: 25%;
-    width: 10%;
+    /* flex: 25%; */
+    width: 2%;
     height: auto;
 }
 .logo3{
-    flex: 25%;
+    /* flex: 25%; */
     width: 2%;
     height: auto;
 }
