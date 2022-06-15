@@ -1,0 +1,65 @@
+.body{
+    background-color: black;
+}
+.ingrid{
+margin-top:40px;
+margin-bottom:40px;
+text-align: center;
+overflow:hidden;
+color: white;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Varela Round', sans-serif;
+
+}
+.left-side{
+    text-align: center;
+}
+.title_music{
+    text-align: center;
+    justify-content: center;
+    color: white;
+    font-size:  40px;
+    font-weight:700;
+}
+.album1{
+    background-image: url('images/background1.jpg');
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.cover_pic1{
+    border-radius: 15px;
+   
+    justify-content: center;
+
+}
+
+.right_side{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 40px;
+    justify-content: center;
+
+
+}
+
+.band_name{
+    color:white;
+    font-size: 38px;
+    text-align:center;
+    font-family: 'Varela Round', sans-serif;
+}
+.song_name{
+    color: #f5e878;
+    font-size: 38px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Varela Round', sans-serif;
+    text-align: center;
+}
+.subtext{
+    color:white;
+    text-align: center;
+
+}
