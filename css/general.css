@@ -20,3 +20,10 @@ body {
   font-family: "Roboto", sans-serif;
   /* overflow-x: hidden; */
 }
+
+a:link,
+a:visited,
+a:hover {
+  color: #f4e5c3;
+  text-decoration: none;
+}
