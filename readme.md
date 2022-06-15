@@ -1,3 +1,3 @@
 # Rumours
 
-Fan page for Fleetwood Mac's hit album _Rumours_
+Fan page for Fleetwood Mac's hit album _Rumours_.

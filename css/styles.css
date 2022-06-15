@@ -1,0 +1,43 @@
+/************************************/
+/* HERO */
+/************************************/
+.hero {
+  /* display: flex; */
+  /* align-items: flex-end; */
+  /* justify-content: flex-start; */
+  /* background-image: url("https://lh3.googleusercontent.com/oJHsEQdk91V69_ePXPuU68R1o0Qu-1zqTxYBKU41n1o-37PDj3PhL2zdIL4Mh_Bp1ZqRDLllCYxdim-yZE-U3PMmCQbUgFKcJ_QImsH3qdDomYLGECoMwPSEKaqzJ8yhghq9_QMnRw=w2400");
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: center; */
+}
+
+.album-cover {
+  /* width: 50vw; */
+  padding-right: 30rem;
+  /* align-self: flex-end; */
+}
+
+.record {
+  animation: rotation 12s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+/************************************/
+/* ALBUM LISTING */
+/************************************/
+.album-info {
+  display: flex;
+  justify-content: center;
+  background-color: #b64022;
+}
+
+h3 {
+  background-color: #d96e27;
+}
