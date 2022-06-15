@@ -15,13 +15,11 @@ h1{
   width: 500spx;
   overflow: hidden;
   flex-wrap: wrap;
-  align-items: center;
+  columns: row;
   padding: 5% 5% 1% 5%;
 }
 #content {
   margin-bottom: 1%;
-  width: 150px;
-  height: 150px;
   padding: 1.5rem;
   position: relative;
   display: flex;
@@ -30,6 +28,9 @@ h1{
 }
 #content:hover {
   transform: translateY(20px);
+  border: solid 1px;
+  border-radius: 10px;
+  border-color: yellow;
 }
 #content:hover:before {
   opacity: 1;
@@ -46,9 +47,8 @@ h1{
   opacity: 0;
 }
 #album {
-  width: 160px;
-  height: 160px;
   border-radius: 25px;
+  border-color: yellow;
 }
 #album[title]:hover:active{
   content: attr(title);
