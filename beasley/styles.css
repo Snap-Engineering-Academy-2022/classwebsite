@@ -72,3 +72,12 @@
   img:nth-child(4) {
     animation-delay: 0s;
   }
+
+  .detailAlbums {
+    padding: auto;
+    margin-top: 200px;
+  }
+
+  .detailAlbums h3 {
+    color: white;
+  }
