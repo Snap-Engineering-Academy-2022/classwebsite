@@ -1,0 +1,14 @@
+h1 {
+    color: navy;
+    margin-left: 20px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+  
+body {
+    background-color: lightblue;
+    display:flex;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
