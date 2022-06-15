@@ -11,7 +11,7 @@
   .center_text {
     text-align: center;
     width: 100%;
-    background-color: #f1f1f1;
+    /* background-color: #f1f1f1; */
     padding-left: 20px;
   }
   * {
@@ -21,14 +21,14 @@
   body {
     font-family: 'Montserrat';
     padding: 10px;
-    background: #f1f1f1;
+    background: #94abe4;
   }
   
   /* Header/Blog Title */
   .header {
     padding: 30px;
     text-align: center;
-    background: white;
+    /* background: #7897e6; */
   }
   
   .header h1 {
@@ -53,7 +53,7 @@
   
   /* Change color on hover */
   .topnav a:hover {
-    background-color: #ddd;
+    /* background-color: #ddd; */
     color: black;
   }
   
@@ -70,7 +70,7 @@
     float: left;
     /* text-align: center; */
     width: 50%;
-    background-color: #f1f1f1;
+    /* background-color: #7897e6; */
     padding-left: 20px;
   }
 
@@ -79,20 +79,20 @@
     float: left;
     text-align: center;
     width: 25%;
-    background-color: #f1f1f1;
+    /* background-color: #f1f1f1; */
     padding-left: 20px;
   }
   
   /* Fake image */
   .fakeimg {
-    background-color: #aaa;
+    /* background-color: #aaa; */
     width: 100%;
     padding: 20px;
   }
   
   /* Add a card effect for articles */
   .card {
-    background-color: white;
+    /* background-color: white; */
     padding: 20px;
     margin-top: 20px;
   }
@@ -108,7 +108,7 @@
   .footer {
     padding: 20px;
     text-align: center;
-    background: #ddd;
+    /* background: #ddd; */
     margin-top: 20px;
   }
   
