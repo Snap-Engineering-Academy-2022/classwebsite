@@ -1,3 +1,81 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Federant', cursive;
+    background-color: #EDD4D4;
+    font-weight: 400;
+    color: black;
+}
+.section1{
+    margin-top: 60px;
+    text-transform: capitalize;
+}
 h1{
-    font-family: 'Fredericka the Great', cursive;
+    font-size: 60px;
+    text-align: center;
+}
+h2{
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 30px;
+}
+.container{
+    display: flex;
+    margin-left: 50px;
+    padding-left: 50px;
+}
+.img-section{
+    flex: 60%;
+    text-align: center;
+    padding-left: 100px;
+}
+/* Album image */
+.img{
+    width: 80%;
+    height: auto;
+}
+/* list of songs*/
+.box-section{
+    flex: 40%;
+    padding-right: 200px;
+    font-size: 24px;
+    letter-spacing: 2px;
+    line-height: 160%;
+}
+.ele1{
+    text-decoration: none;
+    color: black;
+}
+.ele1:hover{
+    cursor: pointer;
+    color: #d76e6e;
+    font-weight: 700;
+}
+.bottom-container{
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+.logo-style{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+}
+.logo1{
+    flex: 50%;
+    width: 10%;
+    height: auto;
+}
+.logo2{
+    flex: 25%;
+    width: 10%;
+    height: auto;
+}
+.logo3{
+    flex: 25%;
+    width: 2%;
+    height: auto;
 }
