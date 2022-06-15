@@ -1,12 +1,46 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>music player</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css
+
+
+
+">
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
+
 <body>
-   <h1>Hello Class</h1>
+    <div class="main">
+        <i class="fa-solid fa-music"></i> <span>SnapMusic</span></p>
+        <!--- left part --->
+        <div class="left">
+            <!--- song img ---> <img id="track_image">
+
+        </div>
+        <!--- right part --->
+        <div class="right">
+            <div class="show_song_no">
+                <p id="present">1</p>
+                <p>/</p>
+                <p id="total">5</p>
+            </div>
+            <!--- song & artist name --->
+            <p id="title">title.mp3</p>
+            <p id="artist">Artist name</p>
+            <!--- middle part --->
+            <div class="middle"> <button onclick="previous_song()" id="pre"><i class="fa fa-step-backward"
+                        aria-hidden="true"></i></button> <button onclick="justplay()" id="play"><i class="fa fa-play"
+                        aria-hidden="true"></i></button> <button onclick="next_song()" id="next"><i
+                        class="fa fa-step-forward" aria-hidden="true"></i></button> </div>
+            <!--- song duration part --->
+
+        </div>
+    </div>
+    <!--- Add javascript file --->
+    <script src="script.js"></script>
 </body>
-gut</html>
+
+</html>
