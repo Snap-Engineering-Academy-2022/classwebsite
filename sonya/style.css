@@ -1,0 +1,89 @@
+h3 {
+  font-size: 60px;
+  font-weight: 700;
+  font-style: italic;
+  padding: 10px 0;
+}
+
+p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 25px;
+  font-weight: 200;
+  padding: 5px 0;
+}
+
+img {
+  /* display: block; */
+}
+
+body {
+  background-image: url(./background-dusk.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: scroll;
+  width: 100%;
+}
+
+.artist {
+  text-align: center;
+  margin: 50px 20px;
+}
+
+.artist img {
+  width: 350px;
+  border-radius: 200px;
+  right: 0;
+  left: 0;
+  margin: auto;
+}
+.artist .statement {
+  margin: 30px;
+}
+
+.statement {
+  color: white;
+  font-size: 25px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.logo {
+  display: block;
+  width: 200px;
+  margin: auto;
+  left: 0;
+  right: 0;
+  padding: 50px;
+}
+
+
+.album {
+  display: flex;
+  padding: 50px;
+}
+
+.album-cover {
+  width: 500px;
+  margin: auto;
+  left: 0;
+  right: 0;
+  padding: 20px;
+}
+
+.album-info {
+  width: 500px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+  padding: 20px;
+}
+
+.album .icon {
+  width: 50px;
+  height: 50px;
+  display: flex;
+}
+
+.ablum-songs {
+  
+}
