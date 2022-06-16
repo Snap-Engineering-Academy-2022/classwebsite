@@ -65,34 +65,18 @@ p {
     line-height: 15px;
 }
 
-.card {
+.card img {
     width: 200px;
     height: 200px;
     display: inline-flex;
     border-radius: 10px;
-    padding: 15px 25px;
+    padding: 25px 25px;
     box-sizing: border-box;
     cursor: pointer;
-    margin: 10px 15px;
-    background-image: url(images/1989.webp);
+    margin: 10px 10px;
     background-position: center;
     background-size: cover;
-    transition: transform 0.5s;
-}
-.card1{
-    background-image: url(images/1989.webp);
-}
-
-.card2 {
-    background-image: url(images/ctrl.jpg);
-}
-
-.card3 {
-    background-image: url(images/planet.jpeg);
-}
-
-.card4 {
-    background-image: url(images/greatest.jpeg);
+    transition: transform 0.9s;
 }
 
 .card:hover {
@@ -103,4 +87,35 @@ h3 {
 }
 .card p{
     font: bold;
+}
+
+
+
+.container2 {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgb(9, 71, 31, 0.2)), url(images/background.png);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    position: absolute;
+}
+
+.cover img {
+    width: 300px;
+    height: 300px;
+    padding: 15px 15px;
+    box-sizing: border-box;
+    margin-left: 10%;
+    margin-top: 5%;
+    max-width: 300px;
+    position: fixed;
+    z-index: 1;
+}
+
+.songs {
+    margin-top: 50px;
+    margin-left: 500px;
 }
