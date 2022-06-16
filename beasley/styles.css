@@ -91,34 +91,25 @@
     }
 
   .Albums {
-    /* position: relative; */
-    justify-content: center;
-    /* float: left; */
+    /* justify-content: center; */
+    justify-content: flex-start;
     text-align: center;
-    /* margin-top: -50px;
-    margin-left: 75px;
-    border-radius: 5px; */
     color: rgb(132, 132, 132);
   }
 
   .songsInAlbum {
     color: white;
     height: 50px;
-    width: 350px;
-    /* margin-left: 600px;
-    margin-top: 50px;
-    margin-bottom: 400; */
+    /* width: 350px; */
     font-size: 1.5rem;
-    /* position: relative; */
   }
 
   .rightContainer {
     justify-content: center;
-    /* justify-items: center; */
   }
 
   .MacAlbumSongs {
-    position: relative;
+    /* position: relative; */
     margin-top: 180px;
   }
 
@@ -127,7 +118,7 @@
   }
 
   .DrakeAlbumSongs {
-    position: relative;
+    /* position: relative; */
     margin-top: 210px;
   }
 
@@ -137,7 +128,7 @@
 
 
   .ColeAlbumSongs {
-    position: relative;
+    /* position: relative; */
     margin-top: 190px;
   }
 
@@ -161,10 +152,6 @@
     margin-bottom: 50px;
   }
 
-  .MacMillerAlbum h3 {
-   
-  }
-
   #MMPic {
     border-radius: 5px;
     background-color: lawngreen;
@@ -183,10 +170,6 @@
 
   .JColeAlbum {
     margin-bottom: 50px;
-  }
-
-  .JColeAlbum h3 {
-
   }
 
   #JCPic {
