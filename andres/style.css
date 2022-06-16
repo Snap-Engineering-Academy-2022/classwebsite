@@ -9,11 +9,12 @@ body{
     text-align: center;
     background-image: url("assets/background.avif"); 
     color: white;
-    animation: loadTransition 0.7s;
+    animation: loadTransition 1s;
 }
 
-img{
+.album-cover{
     height: 700px;
+    
 }
 img:hover{
     opacity: 0.5;
