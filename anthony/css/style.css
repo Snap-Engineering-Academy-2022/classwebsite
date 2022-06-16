@@ -188,6 +188,10 @@ body {
     color: white;
   }
 
+  a.active {
+    color: white;
+  }
+
   .main-content:hover, .player-content:hover, footer:hover {
     transition-duration: 500ms;
   }
