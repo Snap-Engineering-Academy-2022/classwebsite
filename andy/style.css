@@ -7,6 +7,11 @@ h1 {
   color: white;
 }
 
+.header {
+  
+  font-size: xx-large;
+}
+
 * {
   margin: 0px;
   padding: 0px;
@@ -122,15 +127,22 @@ body {
 }
 
 .other-albums {
-  background-color: gray;
+  padding: 1rem;
   width: 100%;
-  aspect-ratio: 1/1;
   display: grid;
-  grid-template-columns: repeat();
+  grid-template-columns: repeat(3, 1fr);
   grid-gap: 0.5rem;
+  justify-items: center;
 }
 
 .other-albums .album-card {
+  /* background-color: darkgray; */
+  margin: 0;
+  padding: 1.5rem;
+}
+
+.other-albums .album-title {
+  font-size: 0.75rem;
 }
 
 /* Desktop - > 1024 */
@@ -164,9 +176,6 @@ body {
 @media screen and (max-width: 1726px) {
   .track-card {
     height: 2.5rem;
-  }
-
-  .track-card:hover {
   }
 }
 
