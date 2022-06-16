@@ -90,7 +90,6 @@
     }
 
   .Albums {
-    /* justify-content: center; */
     justify-content: flex-start;
     text-align: center;
     color: rgb(132, 132, 132);
@@ -99,13 +98,7 @@
   .songsInAlbum {
     color: white;
     height: 50px;
-    /* width: 350px; */
     font-size: 1.5rem;
-  }
-
-
-  .KendrickAlbumSongs h3 {
-    color: rgb(132, 132, 132);
   }
 
   #KLPic {
@@ -117,27 +110,14 @@
     border-radius: 5px;
   }
 
-  .DrakeAlbum {
-    margin-bottom: 50px;
-  }
-
-  .DrakeAlbum h3 {
-  }
-
   #DPic {
     border-radius: 5px;
-  }
-  
-
-  .JColeAlbum {
-    margin-bottom: 50px;
   }
 
   #JCPic {
     border-radius: 5px;
-
   }
-/* ----------------- */
+
   .LamarAlbumContainer, .MillerAlbumContainer, .JColeAlbumContainer, .DrakeAlbumContainer{
     display: flex;
     gap: 10px;
