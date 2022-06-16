@@ -19,7 +19,7 @@ a {
 }
 
 a:hover {
-  color:#d883d4; 
+  color:#fe48b6;
   text-decoration:none; 
   cursor:pointer;
 }
@@ -38,6 +38,7 @@ a:hover {
     /* background-color: #f1f1f1; */
     padding-left: 20px;
   }
+
   * {
     box-sizing: border-box;
   }
@@ -71,68 +72,41 @@ a:hover {
     font-size: 200px;
   }
   
-  /* Style the top navigation bar */
-  .topnav {
-    overflow: hidden;
-    background-color: rgb(37, 100, 132);
-  }
-  
-  /* Style the topnav links */
-  .topnav a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
   
   /* Change color on hover */
   .topnav a:hover {
     /* background-color: #ddd; */
     color: black;
   }
+
+  .row1{
+    display: flex;  
+    flex-wrap: wrap;
+  }
   
   /* Create two unequal columns that floats next to each other */
   /* Left column */
-  .leftcolumn {   
+  .row1 .leftcolumn {   
     float: left;
     text-align: center;
     width: 50%;
   }
   
   /* Right column */
-  .rightcolumn {
+  .row1 .rightcolumn {
     float: left;
     /* text-align: center; */
     width: 50%;
     /* background-color: #7897e6; */
     padding-left: 20px;
   }
-
-  /* Create four columns that floats next to each other */
-  .fourcolumn {
-    float: left;
-    text-align: center;
-    width: 25%;
-    /* background-color: #f1f1f1; */
-    padding-left: 20px;
-  }
-  
-  /* Fake image */
-  .fakeimg {
-    /* background-color: #aaa; */
-    width: 100%;
-    padding: 20px;
-  }
   
   /* Add a card effect for articles */
   .card {
-    /* background-color: white; */
     padding: 20px;
     margin-top: 20px;
   }
-  
+
   /* Clear floats after the columns */
   .row:after {
     content: "";
