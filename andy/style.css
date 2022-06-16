@@ -1,0 +1,238 @@
+html {
+  height: auto;
+  min-height: 100%;
+}
+
+h1 {
+  color: white;
+}
+
+.header {
+  font-size: xx-large;
+}
+
+.back {
+  font-size: 3rem;
+  color: white;
+  transition: color 250ms ease;
+}
+
+.back:hover {
+  color: black;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Varela Round", sans-serif;
+  text-decoration: none;
+}
+
+body {
+  background: rgb(6, 6, 6);
+  background: linear-gradient(
+    326deg,
+    rgba(6, 6, 6, 1) 0%,
+    rgba(106, 133, 173, 1) 100%
+  );
+}
+
+.box {
+  background-color: #444;
+  color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 150%;
+}
+
+.flex-col {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.flex-row {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+
+.album-cover {
+  width: 100%;
+  aspect-ratio: 1/1;
+  border-radius: 2.5%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.album-title {
+  font-size: 1rem;
+  padding: 1rem 0rem 0rem 0.5rem;
+  color: white;
+}
+
+.container {
+  margin: 2rem 10rem 2rem 10rem;
+}
+
+.album-card {
+  margin: 1rem 1rem 1rem 1rem;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  font-size: 1.25rem;
+  padding: 3rem;
+  width: 75%;
+  background-color: #212121;
+  aspect-ratio: 1/1;
+  border-radius: 5px;
+  transition: box-shadow 250ms ease-in-out;
+}
+
+.album-card:hover {
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.album {
+  font-size: 1.25rem;
+  color: white;
+}
+
+.track-list {
+  width: 100%;
+  padding: 1rem;
+  font-size: 1.25rem;
+  font-weight: lighter;
+  color: white;
+  list-style-type: none;
+}
+
+.track {
+  margin-bottom: 2rem;
+}
+
+.track-card {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  border-radius: 10px;
+  background-color: #212121;
+  margin: 0.5rem 0 0.5rem 0;
+  padding: 1rem;
+  overflow: hidden;
+  height: 1.5rem;
+
+  overflow: hidden;
+  transition: box-shadow 250ms ease-out, height 1s ease;
+}
+
+.track-card:hover {
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  height: 10rem;
+}
+
+.other-albums {
+  padding: 1rem;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 0.5rem;
+  justify-items: center;
+}
+
+.other-albums .album-card {
+  /* background-color: darkgray; */
+  margin: 0;
+  padding: 1.5rem;
+}
+
+.other-albums .album-title {
+  font-size: 0.75rem;
+  text-overflow: ellipsis;
+}
+
+/* Desktop - > 1024 */
+/* Mobile - <= 1024 */
+
+@media screen and (min-width: 1025px) {
+  .wrapper {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: 33% 33% 33%;
+    color: #444;
+  }
+
+  .a {
+    grid-column: 1 / span 2;
+  }
+  .b {
+    grid-column: 3;
+    grid-row: 1 / span 2;
+  }
+  .c {
+    grid-row: 2;
+    grid-column: 1 / span 2;
+  }
+
+  .track-card {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1726px) {
+  .track-card {
+    height: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .container {
+    margin: 2rem 2rem 2rem 2rem;
+  }
+
+  .wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .track-card {
+    width: 75%;
+  }
+
+  .b {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .c {
+    width: 100%;
+  }
+
+  .other-albums {
+    width: 75%;
+  }
+}
+
+/* #imgs {
+  border: 1px solid #000;
+  border-radius: 3px;
+  height: 20px;
+  width: 20px;
+  overflow: hidden;
+  -webkit-transition: height 1s ease;
+  -moz-transition: height 1s ease;
+  -o-transition: height 1s ease;
+  transition: height 1s ease;
+}
+#imgs:hover {
+  height: 200px;
+} */

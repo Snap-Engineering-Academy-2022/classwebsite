@@ -1,77 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+
+:root {
+    --white: #fff;
+    --black: #1c2b2d;
+    --blue: #31326f;
+    --color-primary: #9d0191;
+    --color-sec: #e6e60a;
+    --color-grey: #eee;
+    --color-dark-grey: #222831;
+}
+
 * {
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+    margin: 0 auto;
 }
 
 body {
+    font-family: 'Open Sans', sans-serif;
+    background: url(./images/snapic.png) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
     height: 100vh;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.main {
     position: relative;
-    height: 80%;
-    width: 80%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: linear-gradient(to right, #2e83df, #566573);
 }
 
-.main button {
-    padding: 10px 12px;
-    margin: 0 10px;
+header .container {
+    padding: 2rem 0;
+    text-align: center;
+    border-radius: 0 0 5rem 5rem;
+    background-color: var(--color-sec);
+    margin-bottom: 2rem;
 }
 
-.main #logo {
-    position: absolute;
-    top: 10px;
-    left: 30px;
-    font-size: 25px;
-    color: #ccc;
-}
-/* left & right part */
-.right,
-.left {
-    position: relative;
-    height: 100%;
-    width: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+header h1 {
+    font-size: 3rem;
+    color: rgb(8, 0, 0);
+    padding-bottom: .5rem;
 }
 
-/* song image */
-.left img {
-    height: 300px;
-    width: 80%;
-    border-radius: 15px;
-    box-shadow: 1px 0px 20px 12px rgba(240, 240, 240, 0.2);
-}
-
-/* both range slider part */
-input[type="range"] {
-    -webkit-appearance: none;
-    width: 50%;
+form input,
+form button {
     outline: none;
-    height: 2px;
-    margin: 0 15px;
+    border-radius: 2rem;
+    font-size: 1.6rem;
+    font-family: inherit;
+    font-weight: 700;
+    transition: all .3s;
+
 }
 
-input[type="range"]::-webkit-slider-thumb {
-    -webkit-appearance: none;
-    height: 20px;
-    width: 20px;
-    background: #FF8A65;
-    border-radius: 50%;
+form button:hover {
+    border: 1px solid #fff;
     cursor: pointer;
 }
 
-.right input[type=range] {
-    width: 40%;
+form input {
+    width: 50%;
+    border-radius: 2rem;
+    margin-right: 3px;
 }
+
+section .container {
+    font-size: 2rem;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    color: rgb(18, 18, 18);
+    padding: 18rem 0;
+}
+
+.songs {
+    width: 70%;
+    list-style: none;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+.songs li {
+    font-size: 1.4rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 0;
+    border-bottom: 1px solid #eee;
+}
+
