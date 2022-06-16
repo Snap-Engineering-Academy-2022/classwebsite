@@ -6,12 +6,12 @@ body{
     font-family: 'Federant', cursive;
     /* background-color: #EDD4D4; */
     background-color: #ffff;
+    background-image: url("./img/imani-bahati-ut67iFuoD2o-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
     font-weight: 400;
     color: black;
-}
-.background_main{
-    background-image: url("./img/haithem-ferdi-E-a0dTUzwi8-unsplash.jpg");
-    background-color: #ccc;
 }
 .container{
     width: 100%;
@@ -32,13 +32,19 @@ body{
     grid-row-gap: 20px;
 }
 .box{
-    background-color: rgb(119, 101, 101);
-    padding: 25px;
+    border-radius: 10px;
+    display: flex;
+    width: 200px;
+    height: auto;
+}
+/* .box{
+    background-color: rgb(195, 187, 187);
+    padding: 30px;
     border-radius: 10px;
     color: #fff;
     align-items: center;
     justify-content: center;
-}
+} */
 .section1{
     margin-top: 60px;
     text-transform: capitalize;
