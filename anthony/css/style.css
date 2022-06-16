@@ -1,0 +1,11 @@
+.main-content {
+    margin: auto;
+}
+
+img {
+    max-width: 50%;
+}
+
+.spotify-player iframe {
+    display: none;
+}
