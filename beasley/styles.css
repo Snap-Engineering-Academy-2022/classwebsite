@@ -107,22 +107,36 @@
 
   .MacAlbumSongs {
     margin-top: 175px;
+    position: relative;
+  }
+
+  .MacAlbumSongs h3 {
+    color: rgb(132, 132, 132);
   }
 
   .DrakeAlbumSongs {
     margin-top: 185px;
   }
 
+  .DrakeAlbumSongs h3 {
+    color: rgb(132, 132, 132);
+  }
+
+
   .ColeAlbumSongs {
-    margin-top: 315px;
+    margin-top: 200px;
+  }
+
+  .ColeAlbumSongs h3 {
+    color: rgb(132, 132, 132);
   }
 
   .KendrickAlbum {
     margin-bottom: 50px;
   }
 
-  .KendrickAlbum h3 {
-   
+  .KendrickAlbumSongs h3 {
+    color: rgb(132, 132, 132);
   }
 
   #KLPic {
