@@ -2,15 +2,20 @@ body {
   margin: 5% 5% 5% 5%;
   background-color: black;
 }
-h1{
+h1 {
   font-family: Arial, Helvetica, sans-serif;
   color: yellow;
   align-items: center;
 }
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: yellow;
+  align-items: right;
+}
 
 .container {
   display: flex;
-  justify-content:first baseline;
+  justify-content: first baseline;
   width: 500spx;
   overflow: hidden;
   flex-wrap: wrap;
@@ -19,7 +24,7 @@ h1{
   border-right: 0px;
   box-shadow: 5px yellow;
 }
-#super_container{
+#super_container {
   margin: 0 auto;
   border-radius: 10px;
 }
@@ -37,7 +42,7 @@ h1{
   border-radius: 10px;
   border-color: yellow;
 }
-#content:hover::after{
+#content:hover::after {
   transform: translateY(20px);
   border: solid 2px;
   border-radius: 10px;
@@ -62,4 +67,3 @@ h1{
   border-color: yellow;
   border-right: 5px;
 }
-
