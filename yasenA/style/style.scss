@@ -80,18 +80,15 @@ a {
   padding: 5px;
   border-radius: 5px 0 0 5px;
   outline: none;
+  &::placeholder {
+    color: #b9cac2; 
+  }
+  &:focus {
+    color: black; 
+  }
  }
 
-}
-.searchTerm::placeholder {
-  color: #b9cac2; 
-}
-
-.searchTerm:focus {
-  color: black; 
-}
-
-.searchButton {
+ .searchButton {
   width: 40px;
   height: 38px;
   border: 1px solid #00b4cc;
@@ -100,7 +97,11 @@ a {
   color: #fff;
   border-radius: 0 5px 5px 0;
   cursor: pointer;
-  font-size: 20px; }
+  font-size: 20px; 
+  }
+}
+
+
 
 .landing-page {
   width: 100vw;
@@ -108,15 +109,17 @@ a {
   background-color: rgba(253, 245, 223, 0.9);
   background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(253, 245, 223, 0.9)), url(../resource/img/hero.jpg);
   background-size: cover;
-  background-position: top; }
+  background-position: top; 
+  .quote {
+    font-size: 5rem;
+    width: 68rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-110%, -50%); 
+  }
+}
 
-.quote {
-  font-size: 5rem;
-  width: 68rem;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-110%, -50%); }
 
 .album {
   width: 100vw;
@@ -129,18 +132,19 @@ a {
   justify-items: center;
   align-items: center; 
  
+  .album__img {
+    position: relative;
+    width: 640px;
+    height: 640px;
+    cursor: pointer;
+    background-color: rgba(253, 245, 223, 0.9);
+    background-size: cover;
+    background-position: top;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition-duration: 0.3s; 
+  }
 }
 
-.album__img {
-  position: relative;
-  width: 640px;
-  height: 640px;
-  cursor: pointer;
-  background-color: rgba(253, 245, 223, 0.9);
-  background-size: cover;
-  background-position: top;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  transition-duration: 0.3s; }
 
 .album__img::before {
   content: "";
@@ -148,7 +152,8 @@ a {
   top: 0;
   bottom: 0;
   left: 0;
-  right: 0; }
+  right: 0; 
+}
 
 .album__caption {
   position: absolute;
