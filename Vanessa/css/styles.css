@@ -66,6 +66,22 @@ a:visited {
   color: #f4e5c3;
 }
 
+.back-button a:link,
+a:visited {
+  color: #f4e5c3;
+}
+
+.back-button a:hover {
+  color: #9cbeb2;
+}
+
+.back-button {
+  padding-left: 3rem;
+  position: sticky;
+  position: fixed;
+  top: 2rem;
+}
+
 .waves {
   background-image: url("https://lh3.googleusercontent.com/nUY_tWCRjNXj9f7zRPLmGSJ3hLmSk6G1kzJrNJvJEsdNOk7006l7BEhxSn6i--TCFc_Z4yT_3YDkx5kutWvgca1X1-rp5c1kqlRd2Oqj0oBnBV0YgGy1Rdh3czU2x1lTPHYE4lBNuA=w2400");
 }
