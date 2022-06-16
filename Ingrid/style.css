@@ -1,65 +1,160 @@
 .body{
-    background-color: black;
-}
-.ingrid{
-margin-top:40px;
-margin-bottom:40px;
-text-align: center;
-overflow:hidden;
-color: white;
-font-family: 'Montserrat', sans-serif;
-font-family: 'Varela Round', sans-serif;
+    background-color:rgba(209, 101, 101, 0.5);
 
 }
-.left-side{
-    text-align: center;
-}
-.title_music{
-    text-align: center;
-    justify-content: center;
-    color: white;
-    font-size:  40px;
-    font-weight:700;
-}
-.album1{
-    background-image: url('images/background1.jpg');
+.album{
     display:flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-image:url('/images/wallpaper.jpeg');
+    background-position: 50% 50%;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+
+}
+.decor{
     position: relative;
 }
 
-.cover_pic1{
-    border-radius: 15px;
-   
-    justify-content: center;
-
+.right{
+    max-height: 100%;
+    position: absolute;
+    left: 600px;
+    top:50px;
+    bottom:auto;
 }
 
-.right_side{
-    margin-top: 40px;
-    margin-bottom: 40px;
-    margin-left: 40px;
-    justify-content: center;
-
-
+.album_cover{
+    padding-top:18px;
+    padding-bottom:40px;
 }
 
-.band_name{
+.cover{
+    max-height: 900px;
+    border-radius: 20px;
+}
+
+.left{
+    position:absolute;
+    overflow:hidden;
+    right:500px;
+    top:400px;
+}
+.title_album{
+    align-items: center;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size:40px;
+    height:60px;
     color:white;
-    font-size: 38px;
-    text-align:center;
-    font-family: 'Varela Round', sans-serif;
+    text-shadow: 2px 2px 6px #703434;
+
 }
-.song_name{
-    color: #f5e878;
-    font-size: 38px;
-    font-family: 'Montserrat', sans-serif;
+
+.title_spotify{
+    padding-top: 0px;
+}
+
+.spotify{
+    position:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+    text-align: center;
+    background-image:url('/images/background_cute.png');
+    background-attachment: fixed;
+    background-size:cover;
+    text-align: center;
+    padding-bottom:0px;
+    
+
+
+}
+
+.listen_now{
     font-family: 'Varela Round', sans-serif;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 300px;
+    color:white;
+    text-align: center;
+    margin-top:0;
+    margin-bottom:0;
+    backdrop-filter: blur(3px);
+    text-shadow: 1px 1px 2px #fff;
+
+
+}
+
+.album_cover2{
+    max-width: 100%;
+    border-style: solid;
+    border-width:10px;
+    border-color: #fff #fff #fff rgba(153, 87, 87 , 0.51);
+    border-radius: 1px;
+
+}
+
+.album_border{
+    position:relative;
+    top:-50px;
+    align-items:center;
+}
+
+.smile_list{
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    padding-top:50px;
+    padding-bottom:50px;
+    text-align: center;
+    background-image: url('/images/smiley.png');
+    background-position: 50% 50%, 0px 0px;
+    background-size: auto, auto;
+    background-repeat: repeat, repeat;
+    background-attachment: fixed, scroll;
     text-align: center;
 }
-.subtext{
-    color:white;
-    text-align: center;
 
+.songs{
+    display:flex;
+    flex-direction:row;
+    align-items: stretch;
+    justify-content: start;
+    background-color:#f8f2ad;
+    box-shadow: 0 4px 3px 0 #862828;
+}
+
+.first-col{
+    padding-left:50px;
+    padding-right:50px;
+
+}
+
+.sec-col{
+    padding-left:50px;
+    padding-right:50px;
+
+}
+
+.list{
+
+    margin-bottom:10px;
+    color:#b36262;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-size:20px;
+    line-height:50px;
+    list-style-type: none;
+    
+}
+.list-item{
+    border-top: 1px solid #ee7575;
+}
+
+.greenbg{
+    height:20px;
+    background-color:#7bff93;
 }
