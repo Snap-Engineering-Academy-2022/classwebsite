@@ -1,29 +1,32 @@
 * {
-    background-color: rgb(19, 19, 19);
+    background-color: rgb(24, 24, 24);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    
 }
 
 .main {
     text-align: center;
-    background-color: rgb(19, 19, 19);
-    color: rgb(41, 119, 67);
+    background-color: rgb(24, 24, 24);
 }
 
 .main h1 {
-    font-size: 4rem;
-    padding-bottom: 0px;
-    margin-bottom: 10px;
+    font-size: 2.5rem;
+    padding-bottom: 25px;
+    margin-bottom: 5px;
+    color: rgb(255, 255, 255);
 }
 
 .main h2 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     padding-top: 0px;
     margin-top: 0px;
+    color: rgb(132, 132, 132);
 }
 
 .container {
     width: 800px;
     height: 300px;
-    border: 10px;
+    border: 10px;xs
     border-color: bisque;
     overflow: hidden;
     margin: auto;
@@ -72,12 +75,28 @@
   img:nth-child(4) {
     animation-delay: 0s;
   }
-
-  .detailAlbums {
-    padding: auto;
+  
+  .Albums {
+    justify-content: center;
+    float: left;
+    text-align: center;
     margin-top: 200px;
+    margin-left: 75px;
+    border-radius: 15;
   }
 
-  .detailAlbums h3 {
+  .KendrickAlbum {
+    
+  }
+
+  .KendrickAlbum h3 {
+    color: white;
+  }
+
+  .MacMillerAlbum {
+     
+  }
+
+  .MacMillerAlbum h3 {
     color: white;
   }
