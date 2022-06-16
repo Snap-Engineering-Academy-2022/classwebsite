@@ -1,0 +1,96 @@
+*{
+    color: white;
+    cursor: url('../alexis/assets/images/icons/guitar_cursor.png'), auto;	
+}
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    /* style="background-image: url('../alexis/assets/images/slipknot_banner.png');" */
+    background-image: url('../alexis/assets/images/slipknot_banner.png');
+    background-color: black;
+  }
+  
+  header {
+    background-color: black;
+    text-align: center;
+    font-size: 35px;
+    border: 1px solid;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 1%;
+    margin-right: 1%;
+  }
+
+  .albumItemContainer {
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-evenly;
+  }
+  
+  .albumImageContainer {
+    width: 100%;
+    padding: 4%;
+  }
+
+  .albumDescriptionContainer{
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    padding: 4%;
+    color: white;
+    align-self: center;
+  }
+
+  .favSongsContainer{
+    width: 100%; 
+    text-align: center; 
+    padding: 4%; 
+    align-self: center;
+  }
+
+  .spotifyCompactiframe{
+    border-radius: 12px;
+    width: "100%";
+    height: "0%";
+  }
+
+  .footer {
+    /* position: sticky;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 40%; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+   
+  }
+
+  .navigationArtistLinkContainer{
+    padding: 4%;
+  }
+
+  .navigationArtistLink{
+    text-decoration: none;
+  }
+
+  /* img.sticky {
+    position: -webkit-sticky;
+    position: r;
+    bottom: 0;
+    width: 40%;
+  } */
+
+  /* a.disabled {
+    pointer-events: none;
+    cursor: default;
+  } */
+
+  

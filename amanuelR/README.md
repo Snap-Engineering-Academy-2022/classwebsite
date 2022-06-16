@@ -1,0 +1,3 @@
+# SnapMusic
+
+An album page.
