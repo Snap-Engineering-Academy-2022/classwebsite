@@ -1,5 +1,29 @@
 
 @import url("https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900");
+@import url('https://fonts.googleapis.com/css2?family=Underdog&display=swap');;
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+.responsive:hover{
+  -moz-box-shadow: 0 0 40px rgb(43, 42, 42);
+  -webkit-box-shadow: 0 0 40px rgb(25, 24, 24);
+  box-shadow: 0 0 40px rgb(18, 18, 18);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  color:#d883d4; 
+  text-decoration:none; 
+  cursor:pointer;
+}
+
 
 .center_image {
     display: block;
@@ -19,9 +43,17 @@
   }
   
   body {
-    font-family: 'Montserrat';
+    font-family: 'Underdog', cursive;
     padding: 10px;
-    background: #94abe4;
+    background: #BBF1F1;
+  }
+
+  h2 {
+    font-size: 50px;
+  }
+
+  h3 {
+    font-size: 40px;
   }
   
   /* Header/Blog Title */
@@ -32,7 +64,7 @@
   }
   
   .header h1 {
-    font-size: 50px;
+    font-size: 75px;
   }
   
   /* Style the top navigation bar */
