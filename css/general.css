@@ -21,6 +21,10 @@ body {
   /* overflow-x: hidden; */
 }
 
+a {
+  transition-duration: 0.4s;
+}
+
 a:link,
 a:visited,
 a:hover {
