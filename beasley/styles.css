@@ -1,0 +1,166 @@
+* {
+    background-color: rgb(24, 24, 24);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    
+}
+
+.main {
+    text-align: center;
+    background-color: rgb(24, 24, 24);
+}
+
+.main h1 {
+    font-size: 2.5rem;
+    padding-bottom: 25px;
+    margin-bottom: 5px;
+    color: rgb(255, 255, 255);
+}
+
+.main h2 {
+    font-size: 1.7rem;
+    padding-top: 0px;
+    margin-top: 0px;
+    color: rgb(132, 132, 132);
+}
+
+.container {
+    width: 800px;
+    height: 300px;
+    border: 10px;xs
+    border-color: bisque;
+    overflow: hidden;
+    margin: auto;
+    justify-content: center;
+
+}
+
+.photo {
+    position: absolute;
+    animation: round 5s infinite;
+    opacity: 0;
+    border-radius: 5px;
+}
+
+@keyframes round {
+    25% {
+        opacity: 1;
+    }
+    40% {
+        opacity: 0;
+    }
+}
+
+-webkit-@keyframes round {
+    25% {
+        opacity: 1;
+        -webkit-opacity: 1;
+    }
+    40% {
+        opacity: 0;
+        -webkit-opacity: 0;
+    }
+}
+
+  img:nth-child(1) {
+    animation-delay: 12s;
+  }
+   
+  img:nth-child(2) {
+    animation-delay: 8s;
+  }
+   
+  img:nth-child(3) {
+    animation-delay: 4s;
+  }
+   
+  img:nth-child(4) {
+    animation-delay: 0s;
+  }
+  
+  .AlbumTitleBarContainer {
+    text-align: center;
+    margin-top: 200px;
+    color: rgb(132, 132, 132);
+    font-size: 1.4rem;
+    }
+
+  .Albums {
+    justify-content: center;
+    float: left;
+    text-align: center;
+    margin-top: 25px;
+    margin-left: 75px;
+    border-radius: 5px;
+    color: rgb(132, 132, 132);
+  }
+
+  .songsInAlbum {
+    color: white;
+    float: right;
+    height: 50px;
+    width: 350px;
+    margin-right: 350px ;
+    margin-top: 50px;
+    font-size: 1.5rem;
+    position: relative;
+  }
+
+  .MacAlbumSongs {
+    margin-top: 315px;
+  }
+
+  .DrakeAlbumSongs {
+    margin-top: 300px;
+  }
+
+  .ColeAlbumSongs {
+    margin-top: 315px;
+  }
+
+  .KendrickAlbum {
+    margin-bottom: 50px;
+  }
+
+  .KendrickAlbum h3 {
+   
+  }
+
+  #KLPic {
+    border-radius: 5px;
+  }
+
+  .MacMillerAlbum {
+    margin-bottom: 50px;
+  }
+
+  .MacMillerAlbum h3 {
+   
+  }
+
+  #MMPic {
+    border-radius: 5px;
+    background-color: lawngreen;
+  }
+
+  .DrakeAlbum {
+    margin-bottom: 50px;
+  }
+
+  .DrakeAlbum h3 {
+  }
+
+  #DPic {
+    border-radius: 5px;
+  }
+
+  .JColeAlbum {
+    margin-bottom: 50px;
+  }
+
+  .JColeAlbum h3 {
+
+  }
+
+  #JCPic {
+    border-radius: 5px;
+  }
