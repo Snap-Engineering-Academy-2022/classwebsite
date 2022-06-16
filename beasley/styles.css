@@ -85,10 +85,11 @@
     }
 
   .Albums {
+    position: relative;
     justify-content: center;
     float: left;
     text-align: center;
-    margin-top: 25px;
+    margin-top: -50px;
     margin-left: 75px;
     border-radius: 5px;
     color: rgb(132, 132, 132);
@@ -96,18 +97,23 @@
 
   .songsInAlbum {
     color: white;
-    float: right;
     height: 50px;
     width: 350px;
-    margin-right: 350px ;
+    margin-left: 600px;
     margin-top: 50px;
+    margin-bottom: 400;
     font-size: 1.5rem;
     position: relative;
   }
 
+  .rightContainer {
+    justify-content: center;
+    justify-items: center;
+  }
+
   .MacAlbumSongs {
-    margin-top: 175px;
     position: relative;
+    margin-top: 180px;
   }
 
   .MacAlbumSongs h3 {
@@ -115,7 +121,8 @@
   }
 
   .DrakeAlbumSongs {
-    margin-top: 185px;
+    position: relative;
+    margin-top: 210px;
   }
 
   .DrakeAlbumSongs h3 {
@@ -124,7 +131,8 @@
 
 
   .ColeAlbumSongs {
-    margin-top: 200px;
+    position: relative;
+    margin-top: 190px;
   }
 
   .ColeAlbumSongs h3 {
