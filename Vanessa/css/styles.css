@@ -1,0 +1,144 @@
+/************************************/
+/* HERO */
+/************************************/
+.hero {
+  position: relative;
+  height: 101vh;
+  width: 100vw;
+}
+
+.overlay {
+  /* height: 50vw; */
+  padding-right: 30rem;
+  height: 100vh;
+  /* align-self: flex-end; */
+}
+
+.record {
+  position: absolute;
+  right: 22vw;
+  top: -1.5vw;
+  /* max-height: 104.5%; */
+  height: 106vh;
+  z-index: -1;
+  animation: rotation 12s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+.record-player-arm {
+  position: absolute;
+  right: -1.5vw;
+  top: 22vh;
+  width: 33vw;
+  /* max-width: 40vw; */
+}
+
+.spacer {
+  aspect-ratio: 2734/279;
+  width: 105vw;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.music-icons {
+  display: flex;
+  gap: 3rem;
+  position: absolute;
+  right: 2vw;
+  bottom: 1.5vw;
+}
+
+.music-icons a:link,
+a:visited {
+  color: #b64022;
+}
+
+.music-icons a:hover {
+  color: #f4e5c3;
+}
+
+.waves {
+  background-image: url("https://lh3.googleusercontent.com/nUY_tWCRjNXj9f7zRPLmGSJ3hLmSk6G1kzJrNJvJEsdNOk7006l7BEhxSn6i--TCFc_Z4yT_3YDkx5kutWvgca1X1-rp5c1kqlRd2Oqj0oBnBV0YgGy1Rdh3czU2x1lTPHYE4lBNuA=w2400");
+}
+/************************************/
+/* ALBUM INFO */
+/************************************/
+
+.album-info {
+  padding: 10rem 0 10rem 0;
+  position: relative;
+  width: 105vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15rem;
+  background-color: #b64022;
+}
+
+h3 {
+  font-size: 6rem;
+  font-weight: 500;
+}
+
+.album-info p {
+  font-size: 3.5rem;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.album-image img {
+  max-width: 30vw;
+}
+
+.album-image {
+  position: relative;
+}
+.album-image img.rollover {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+.album-image:hover img.rollover {
+  opacity: 1;
+}
+
+/************************************/
+/* FOOTER */
+/************************************/
+.spacer-footer {
+  aspect-ratio: 2734/279;
+  width: 105vw;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.waves-footer {
+  background-image: url("https://lh3.googleusercontent.com/aJ6OESPorrQ5UB9fxGOhGGs-L4ERn2AGGwCMEwE_ZRbH4Sp5ZuNBebxKfA0DwIxepiKOz5bv8xLtASJISKMSvdrP8qcJeUF7wsnQzyxezU0iSmCdAlFi2caqboMzXjTtvoM3DrlxMg=w2400");
+}
+
+footer {
+  background-color: #c89b27;
+}
+
+footer p {
+  padding: 7.5rem 0 2rem 0;
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  color: #000;
+  font-size: 1.5rem;
+}
