@@ -95,10 +95,6 @@
     width: 100%;
   }
 
-  #secondSlipknotItem{
-    margin-left: 4%;
-  }
-
   .footer {
     display: flex;
     flex-direction: row;
