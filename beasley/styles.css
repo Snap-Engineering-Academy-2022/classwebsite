@@ -1,12 +1,15 @@
 * {
-    background-color: rgb(24, 24, 24);
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
     
 }
 
+body {
+  background-image: url(trial.jpg);
+}
+
 .main {
     text-align: center;
-    background-color: rgb(24, 24, 24);
+    background-color: transparent;
 }
 
 .main h1 {
@@ -26,7 +29,7 @@
 .container {
     width: 800px;
     height: 300px;
-    border: 10px;xs
+    border: 10px;
     border-color: bisque;
     overflow: hidden;
     margin: auto;
@@ -87,12 +90,14 @@
     margin-top: 200px;
     color: rgb(132, 132, 132);
     font-size: 1.4rem;
+    background-color: transparent;
     }
 
   .Albums {
     justify-content: flex-start;
     text-align: center;
     color: rgb(132, 132, 132);
+    background-color: transparent;
   }
 
   .songsInAlbum {
@@ -128,6 +133,7 @@
   .KendrickAlbumSong, .MacAlbumSong, .DrakeAlbumSong, .JColeAlbumSong {
     margin: 10px;
     width: 300px;
+    background-color: transparent;
   }
 
   .KendrickAlbumSong, .MacAlbumSong, .DrakeAlbumSong, .JColeAlbumSong {
