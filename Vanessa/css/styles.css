@@ -18,7 +18,8 @@
   position: absolute;
   right: 22vw;
   top: -1.5vw;
-  max-height: 104.5%;
+  /* max-height: 104.5%; */
+  height: 106vh;
   z-index: -1;
   animation: rotation 12s infinite linear;
 }
@@ -36,7 +37,8 @@
   position: absolute;
   right: -1.5vw;
   top: 22vh;
-  max-width: 33vw;
+  width: 33vw;
+  /* max-width: 40vw; */
 }
 
 .spacer {
