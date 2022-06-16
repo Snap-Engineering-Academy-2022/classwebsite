@@ -92,6 +92,10 @@ body {
   list-style-type: none;
 }
 
+.track {
+  margin-bottom: 2rem;
+}
+
 .track-card {
   box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
     rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
@@ -99,24 +103,27 @@ body {
   background-color: #212121;
   margin: 0.5rem 0 0.5rem 0;
   padding: 1rem;
-  transition-property: box-shadow;
-  transition: 250ms ease-out;
+  overflow: hidden;
+  height: 2rem;
+
+  overflow: hidden;
+  transition: box-shadow 250ms ease-out, height 1s ease;
 }
 
 .track-card:hover {
   cursor: pointer;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
     rgba(0, 0, 0, 0.22) 0px 15px 12px;
-  /* height: 10rem; */
+  height: 10rem;
 }
 
 .other-albums {
-  /* background-color: gray; */
+  background-color: gray;
   width: 100%;
   aspect-ratio: 1/1;
 }
 
-/* Desktop - 1440p width and greater */
+/* Desktop - > 1024 */
 /* Mobile - <= 1024 */
 
 @media screen and (min-width: 1025px) {
@@ -167,4 +174,19 @@ body {
     justify-content: center;
     flex-direction: column;
   }
+}
+
+#imgs {
+  border: 1px solid #000;
+  border-radius: 3px;
+  height: 20px;
+  width: 20px;
+  overflow: hidden;
+  -webkit-transition: height 1s ease;
+  -moz-transition: height 1s ease;
+  -o-transition: height 1s ease;
+  transition: height 1s ease;
+}
+#imgs:hover {
+  height: 200px;
 }
