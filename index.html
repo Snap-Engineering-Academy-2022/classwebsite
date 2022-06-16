@@ -9,9 +9,15 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
+
+    <!-- Spotify icon -->
+    <script
+      src="https://kit.fontawesome.com/e7ed301a8f.js"
+      crossorigin="anonymous"
+    ></script>
 
     <!--  Stylesheets -->
     <link href="css/general.css" rel="stylesheet" />
@@ -24,7 +30,7 @@
     <div class="hero">
       <img
         class="overlay"
-        src="https://lh3.googleusercontent.com/pC9AcUIMFY7reSOXs0EXV8qiOddrOqLmrLXJGqSHyM4P7h6emxzsjQMQuHUKbbcFXTUv-ZFC3P1n3twEJ7-Kg8ffngBM9qfGyaJUvRCIvgt29U7IPDYWr8-Oc-NvM4Irw3h5J6_gwA=w2400"
+        src="https://lh3.googleusercontent.com/j0NS4YR9Eq9z32rMGLibRjlAcMbUfBTFne7xpF9FMFVRqPdXurAURBCJDX7ucRFIwpwlWCAkP5_kPGpYGykqd3wztJPLl79VB29yqcjvdCEG6uViTPSbsT0RaadQ26Rs3mWmNL9mqw=w2400"
       />
 
       <img
@@ -36,37 +42,28 @@
         class="record-player-arm"
         src="https://lh3.googleusercontent.com/a4edcmudmwMdRoCZirDhciMVIADPa6Zsh0n_wx-rF9Wei1DFc0GaTQhhQ1os6jygD4PYG0dSwcsxBC_a_8jzyuTFUrrGmJdoDCJfdjkPZNPaVPa6wxl5f3cxrL7RLQcJh4fs7y2VCA=w2400"
       />
+      <div class="music-icons">
+        <a
+          href="https://open.spotify.com/album/1bt6q2SruMsBtcerNVtpZB?si=VwWIxPsjTWWjlNQhlUNHAw"
+          ><i class="fa-brands fa-spotify"></i
+        ></a>
+        <a
+          href="https://music.amazon.com/albums/B00B1MHXY2?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_gOjsM3bLMF5wjDevlPdhCdb03"
+          ><i class="fa-brands fa-apple"></i
+        ></a>
+        <a href="https://music.apple.com/us/album/rumours/594061854"
+          ><i class="fa-brands fa-amazon"></i
+        ></a>
+      </div>
     </div>
 
-    <section class="album-info">
-      <div class="album-image">
-        <img
-          class="album"
-          src="https://lh3.googleusercontent.com/dETkWvhlwyxL4-qCDsP7Ri-dS1qzqDwJp6Fo5Jcy-EHVHS5_afqMPO0oqNPYwBo3i8PFv68tfldCZjCGjhwKB2aNG8NgTOdHErjoaXcKBtcfBA8GI0yFsvmjMw8h-P7iMf9lvkESWA=w2400"
-        />
-        <img
-          class="album rollover"
-          src="https://lh3.googleusercontent.com/GB8uwb0xz9sVdyr2cg4CIOGc5sE0ylmXQ1Sh2Md7yGM_UGkarSXKJSfATYHS2MzhFkPV54WJa6-LtDPObeO9_E8msZ24cFuppGji5ACXnGgDo3FifYFiauhb4ZcQx2U1LgYWntXIZg=w2400"
-        />
-      </div>
+    <div class="spacer waves"></div>
 
+    <section class="album-info">
       <section class="side-one">
         <h3>Side One</h3>
-
-        <a
-          href="https://open.spotify.com/track/0hlniElQOr5tvSKBaSpAQi?si=dc8717ef15c949a6"
-          target="_blank"
-          rel="noopener noreferrer"
-          >Second Hand News</a
-        >
-
-        <a
-          href="https://open.spotify.com/track/5TDZyWDfbQFQJabbPwImVY?si=cf171b4328e04b03"
-          target="_blank"
-          rel="noopener noreferrer"
-          >Dreams</a
-        >
-
+        <p>Second Hand News</p>
+        <p>Dreams</p>
         <p>Never Going Back Again</p>
         <p>Don't Stop</p>
         <p>Go Your Own Way</p>
@@ -81,13 +78,21 @@
         <p>Oh Daddy</p>
         <p>Gold Dust Woman</p>
       </section>
-    </section>
 
-    <!-- TEST ONLY--DELETE!!!  -->
-    <div class="section">Scroll down to see the effect</div>
-    <div class="section bg-static">
-      <div class="bg-move"></div>
-    </div>
-    <div class="section">The boat image is moving only when scrolling.</div>
+      <div class="album-image">
+        <img
+          class="album"
+          src="https://lh3.googleusercontent.com/dETkWvhlwyxL4-qCDsP7Ri-dS1qzqDwJp6Fo5Jcy-EHVHS5_afqMPO0oqNPYwBo3i8PFv68tfldCZjCGjhwKB2aNG8NgTOdHErjoaXcKBtcfBA8GI0yFsvmjMw8h-P7iMf9lvkESWA=w2400"
+        />
+        <img
+          class="album rollover"
+          src="https://lh3.googleusercontent.com/GB8uwb0xz9sVdyr2cg4CIOGc5sE0ylmXQ1Sh2Md7yGM_UGkarSXKJSfATYHS2MzhFkPV54WJa6-LtDPObeO9_E8msZ24cFuppGji5ACXnGgDo3FifYFiauhb4ZcQx2U1LgYWntXIZg=w2400"
+        />
+      </div>
+    </section>
+    <footer>
+      <div class="spacer-footer waves-footer"></div>
+      <p>Built with 💘 in beautiful Santa Monica, California.</p>
+    </footer>
   </body>
 </html>
