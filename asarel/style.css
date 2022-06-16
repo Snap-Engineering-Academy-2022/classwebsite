@@ -22,6 +22,10 @@ html {
   display: flex;
 }
 
+.profile:hover {
+  cursor: pointer;
+}
+
 .profile_img {
   width: 30px;
   height: 30px;
@@ -49,21 +53,19 @@ html {
   padding-left: 20px;
 }
 
-.container {
+.albums {
+  padding-bottom: 0px;
+  grid-template-rows: repeat(4, 100px);
   padding-bottom: 100px;
 }
 
-.albums {
-  display: flex;
-  /* padding: 20px; */
-  text-align: center;
-  margin: auto;
-  margin-bottom: 20px;
+a {
+  text-decoration: none;
 }
 
 .albums_card {
   margin-left: 20px;
-  height: 330px;
+  height: 350px;
   width: 250px;
   background-color: #181818;
   display: inline-block;
@@ -77,16 +79,16 @@ html {
 }
 
 .albums_card_img {
-  padding-top: 20px;
+  padding-top: 30px;
+  padding-left: 25px;
+  padding-bottom: 20px;
   width: 200px;
   height: 200px;
   border-radius: 10px;
-  margin: auto;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .albums_card_title_album_title {
-  padding-top: 25px;
+  padding-top: px;
   margin: 0;
   font-size: 18px;
   color: white;
@@ -103,6 +105,7 @@ html {
   text-align: left;
   width: 200px;
   margin: auto;
+  font-weight: 100;
 }
 
 .albums_card_title {
@@ -129,6 +132,30 @@ html {
   width: 300px;
   background-color: #181818;
   margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.big {
+  width: 40px;
+  height: 40px;
+}
+
+.medium {
+  width: 20px;
+  height: 20px;
+}
+
+.small {
+  width: 18px;
+  height: 18px;
+}
+
+.media_controls {
+  margin-top: 25px;
+  padding: 15px;
+  cursor: pointer;
 }
 
 .indicator {
@@ -146,17 +173,17 @@ html {
   padding-right: 15px;
 }
 
-.slider{
-  -webkit-appearance: none;  /* Override default CSS styles */
+.slider {
+  -webkit-appearance: none; /* Override default CSS styles */
   appearance: none;
   width: 100%; /* Full-width */
   height: 5px; /* Specified height */
   background: grey; /* Grey background */
   outline: none; /* Remove outline */
   opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
-  -webkit-transition: .2s; /* 0.2 seconds transition on hover */
-  transition: opacity .2s;
-  border-radius: 5px;  
+  -webkit-transition: 0.2s; /* 0.2 seconds transition on hover */
+  transition: opacity 0.2s;
+  border-radius: 5px;
   margin: auto;
 }
 
@@ -165,7 +192,7 @@ html {
   appearance: none;
   width: 10px;
   height: 10px;
-  border-radius: 50%; 
+  border-radius: 50%;
   background: #fff;
   cursor: pointer;
 }
@@ -178,27 +205,12 @@ html {
   cursor: pointer;
 }
 
-/* @media only screen and (max-width: 1000px) {
-  .albums {
-    display: block;
-    padding: auto;
-    text-align: center;
-  }
+.spotify_embed {
+  display: none;
+}
 
-  .albums_card {
-    margin-bottom: 10px;
-    height: 300px;
-    width: 300px;
-    background-color: #181818;
-    display: inline-block;
+@media screen and (min-width: 1024px) {
+  .container {
+    padding-bottom: 100px;
   }
-
-  .albums img {
-    width: 200px;
-    height: 200px;
-  }
-
-  .albums_card_title p {
-    text-align: left;
-  }
-} */
+}
