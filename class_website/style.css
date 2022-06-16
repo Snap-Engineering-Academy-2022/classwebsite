@@ -4,9 +4,40 @@
 }
 body{
     font-family: 'Federant', cursive;
-    background-color: #EDD4D4;
+    /* background-color: #EDD4D4; */
+    background-color: #ffff;
     font-weight: 400;
     color: black;
+}
+.background_main{
+    background-image: url("./img/haithem-ferdi-E-a0dTUzwi8-unsplash.jpg");
+    background-color: #ccc;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    /* CSS Smooth Scroll */
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+}
+.card-container{
+    margin: 20px auto;
+    width: 400px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-row: auto auto; 
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+.box{
+    background-color: rgb(119, 101, 101);
+    padding: 25px;
+    border-radius: 10px;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
 }
 .section1{
     margin-top: 60px;
@@ -25,7 +56,7 @@ h3{
     text-align: center;
     margin-bottom: 10px;
 }
-.container{
+.container-small{
     display: flex;
     margin-left: 50px;
     padding-left: 50px;
