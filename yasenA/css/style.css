@@ -8,6 +8,10 @@
 html {
   font-size: 10px; }
 
+li,
+ul {
+  list-style: none; }
+
 a {
   text-decoration: none;
   color: inherit;
@@ -26,7 +30,7 @@ a {
   width: 25vw;
   margin-left: 10vw; }
 
-li {
+#nav-bar ul li {
   display: flex;
   list-style: none;
   width: 100%;
@@ -95,11 +99,52 @@ li {
   align-items: center; }
 
 .album__img {
+  position: relative;
   width: 640px;
   height: 640px;
+  cursor: pointer;
   background-color: rgba(253, 245, 223, 0.9);
   background-size: cover;
-  background-position: top; }
+  background-position: top;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  transition-duration: 0.3s; }
+
+.album__img::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0; }
+
+.album__caption {
+  position: absolute;
+  transition: all 0.3s;
+  text-align: left;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, 40%);
+  opacity: 0;
+  color: white;
+  font-size: 5rem;
+  transition-delay: 0.1s;
+  white-space: nowrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column; }
+
+.album__img:hover {
+  transform: scale(1);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  border-radius: 5px; }
+
+.album__img:hover::before {
+  filter: blur(1px) brightness(70%);
+  background-image: linear-gradient(rgba(146, 241, 247, 0.7), rgba(146, 241, 247, 0.7)); }
+
+.album__img:hover .album__caption {
+  opacity: 1; }
 
 .bg-white {
   background-color: #ffffff; }
@@ -107,13 +152,18 @@ li {
 .album__quote {
   display: inline-block;
   font-size: 5rem;
-  width: 68rem; }
+  width: 68rem;
+  margin-bottom: 0.5rem;
+  display: inline-block;
+  background: linear-gradient(58deg, #22c1c3 0%, #69fd2d 100%);
+  -webkit-background-clip: text;
+  color: transparent; }
 
 .album-plus .album__img {
   background-image: url(../resource/img/ed_sher_plus.jpeg); }
 
 .album-x .album__img {
-  background-image: url(../resource/img/ed_sher_x.jpeg); }
+  background-image: url(../resource/img/ed_sher_x.jpg); }
 
 .album-divide .album__img {
   background-image: url(../resource/img/ed_sher_divide.png); }
@@ -123,3 +173,73 @@ li {
 
 .album-equals .album__img {
   background-image: url(../resource/img/ed_sher_equals.webp); }
+
+.btn__listen {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  margin-top: 2rem; }
+  .btn__listen a {
+    position: relative;
+    text-decoration: none;
+    background-color: #5ebec4;
+    padding: 1.5rem;
+    color: white;
+    text-align: center;
+    width: 6rem;
+    height: 6rem;
+    transition: ease 0.4s;
+    box-shadow: 0 20px 25px #238d94;
+    overflow: hidden;
+    border-radius: 3px; }
+  .btn__listen a span {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    white-space: nowrap;
+    top: 50%;
+    left: 50%;
+    transform: translate(-100%, -50%);
+    transition: 0.5s;
+    font-size: 2rem;
+    font-weight: 300; }
+  .btn__listen a:hover {
+    width: 200px;
+    transition-delay: 0.3s; }
+  .btn__listen a:hover > span {
+    opacity: 1;
+    visibility: visible;
+    transform: translate(-50%, -50%);
+    transition-delay: 0.5s; }
+  .btn__listen a::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    width: 12px;
+    height: 12px;
+    border-top: 2px solid white;
+    border-right: 2px solid white;
+    transition: 0.5s;
+    transition-delay: 0.2s; }
+  .btn__listen a:hover::before {
+    transform: rotate(45deg) translate(90px, -90px);
+    transition-delay: 0.1s; }
+  .btn__listen a::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    left: -50px;
+    width: 12px;
+    height: 12px;
+    border-top: 2px solid white;
+    border-right: 2px solid white;
+    transition: 0.5s; }
+  .btn__listen a:hover::after {
+    transform: rotate(45deg) translate(50px, -60px);
+    transition-delay: 0.4s; }
