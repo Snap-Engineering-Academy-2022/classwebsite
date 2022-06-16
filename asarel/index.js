@@ -3,7 +3,7 @@
 // const indicator = document.getElementById('indicator').style.display;
 
 function changeImage() {
-  var image = document.getElementById("myImage");
+  var image = document.getElementById("play-pause");
   if (image.src.match("pause")) {
     image.src = "./icons/play-button.png";
   } else {
