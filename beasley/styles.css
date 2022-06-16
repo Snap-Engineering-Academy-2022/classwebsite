@@ -94,6 +94,29 @@
     color: rgb(132, 132, 132);
   }
 
+  .songsInAlbum {
+    color: white;
+    float: right;
+    height: 50px;
+    width: 350px;
+    margin-right: 350px ;
+    margin-top: 50px;
+    font-size: 1.5rem;
+    position: relative;
+  }
+
+  .MacAlbumSongs {
+    margin-top: 315px;
+  }
+
+  .DrakeAlbumSongs {
+    margin-top: 300px;
+  }
+
+  .ColeAlbumSongs {
+    margin-top: 315px;
+  }
+
   .KendrickAlbum {
     margin-bottom: 50px;
   }
