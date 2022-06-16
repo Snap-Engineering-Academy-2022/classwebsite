@@ -1,2 +1,3 @@
-# Day1SEA
-<h1>HELLO</h1>
+# SnapMusic
+
+An album page.
