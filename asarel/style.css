@@ -1,6 +1,8 @@
 html {
   font-family: "Montserrat", sans-serif;
   background-color: #101010;
+  padding: 0;
+  margin: 0;
 }
 
 .heading {
@@ -45,6 +47,10 @@ html {
   color: #fff;
   padding-top: 10px;
   padding-left: 20px;
+}
+
+.container {
+  padding-bottom: 100px;
 }
 
 .albums {
@@ -121,7 +127,7 @@ html {
 .controls {
   height: 50px;
   width: 300px;
-  background-color: aqua;
+  background-color: #181818;
   margin: auto;
 }
 
