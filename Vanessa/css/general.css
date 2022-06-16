@@ -42,6 +42,9 @@ html {
 }
 
 body {
+  /* width: 100%; */
+  position: relative;
+  /* position: absolute; */
   box-sizing: border-box;
   background-color: #9cbeb2;
   font-size: 4rem;
