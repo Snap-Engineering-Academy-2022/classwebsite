@@ -58,7 +58,7 @@
 }
 
 .music-icons a:link,
-a:visited {
+.music-icons a:visited {
   color: #b64022;
 }
 
@@ -67,7 +67,7 @@ a:visited {
 }
 
 .back-button a:link,
-a:visited {
+.back-button a:visited {
   color: #f4e5c3;
 }
 
@@ -80,6 +80,7 @@ a:visited {
   position: sticky;
   position: fixed;
   top: 2rem;
+  z-index: 10;
 }
 
 .waves {
