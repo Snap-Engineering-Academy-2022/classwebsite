@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Yasen SEA Albums Project</title>
 
+    <!-- add google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+
+
     <!-- font awsome -->
     <!-- <script src="https://kit.fontawesome.com/f8f4200bab.js" crossorigin="anonymous"></script> -->
     <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet" type="text/css" />
@@ -22,6 +28,10 @@
         <li><a href="#">Tickets</a></li>
       </ul>
 
+      <section class="scroll-container">
+
+
+
       <div class="search">
         <input type="text" class="searchTerm" placeholder="What are you looking for?" />
         <button type="submit" class="searchButton">
@@ -34,7 +44,7 @@
       <p class="quote">There’s no better way to get your point across than to put it in a beautiful song.</p>
     </section>
 
-    <section class="album album-plus bg-white">
+    <section class="album album-plus bg-white js-scroll slide-left">
       <div class="album__quote">
         <p>Everything will be okay in the end. If it's not okay, then it's not the end</p>
         <div class="btn__listen">
@@ -53,7 +63,7 @@
       </div>
     </section>
 
-    <section class="album album-x">
+    <section class="album album-x js-scroll slide-right">     
       <div class="album__img">
         <figcaption class="album__caption">
           <span>
@@ -72,7 +82,7 @@
       </div>
     </section>
 
-    <section class="album album-divide bg-white">
+    <section class="album album-divide bg-white js-scroll fade-in-bottom">
       <div class="album__quote">
         <p>The main thing that you have to remember on this journey is, just be nice to everyone and always smile</p>
         <div class="btn__listen">
@@ -91,7 +101,7 @@
       </div>
     </section>
 
-    <section class="album album-n6">
+    <section class="album album-n6 js-scroll slide-right">
       <div class="album__img">
         <figcaption class="album__caption">
           <span>
@@ -110,7 +120,7 @@
       </div>
     </section>
 
-    <section class="album album-equals bg-white">
+    <section class="album album-equals bg-white js-scroll slide-left">
       <div class="album__quote">
         <p>If I can put on my album in a car or on my headphones and listen to the whole thing and love it, that’s what I’m going to be happy putting out there</p>
         <div class="btn__listen">
@@ -128,5 +138,6 @@
         </figcaption>
       </div>
     </section>
+  </section>
   </body>
 </html>
