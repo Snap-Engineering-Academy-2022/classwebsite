@@ -87,7 +87,8 @@ body {
   
   .AlbumTitleBarContainer {
     text-align: center;
-    margin-top: 200px;
+    margin-top: 250px;
+    margin-bottom: -100px;
     color: rgb(132, 132, 132);
     font-size: 1.4rem;
     background-color: transparent;
