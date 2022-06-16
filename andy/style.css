@@ -8,8 +8,17 @@ h1 {
 }
 
 .header {
-  
   font-size: xx-large;
+}
+
+.back {
+  font-size: 3rem;
+  color: white;
+  transition: color 250ms ease;
+}
+
+.back:hover {
+  color: black;
 }
 
 * {
