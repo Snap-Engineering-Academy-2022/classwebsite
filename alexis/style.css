@@ -14,10 +14,17 @@
     text-align: center;
     font-size: 35px;
     border: 1px solid;
-    margin-top: 2%;
+    border-color: red;
+    border-radius: 8px;
+    margin-top: 4%;
     margin-bottom: 2%;
-    margin-left: 1%;
-    margin-right: 1%;
+    margin-left: 4%;
+    margin-right: 4%;
+  }
+
+  @font-face {
+    font-family: SomethingStrange;
+    src: url(../alexis/assets/fonts/SomethingStrange-vjYD.ttf);
   }
 
   /* Navbar - will display links to different artists and corresponding albums */
@@ -25,6 +32,8 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    font-family: SomethingStrange;
+    font-size: 70px;
   }
 
   .navigationArtistLinkContainer{
@@ -41,7 +50,7 @@
   }
 
   #slipknotContainerBackground{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Times New Roman', Helvetica, sans-serif;
     background-image: url('../alexis/assets/images/slipknot_banner.png');
     background-color: black;
   }
@@ -85,6 +94,9 @@
     padding-top: 9%;
     padding-bottom: 9%;
     width: 100%;
+    border: 1px solid;
+    border-color: rgb(255, 0, 0);
+    border-radius: 8px;
   }
 
   /* FavSongsContainer - uses the Spotify embedded audio to display favorite songs and honorable mentions */
@@ -95,8 +107,35 @@
     width: 100%;
   }
 
+  #floatingImageContainer{
+    display: inline-block;
+    left: 0px;
+    top: 0px;
+    width: 25%;
+    overflow:hidden;
+    position: sticky;
+    bottom: 0;
+  }
+
+  #floatingImage{
+    float: left;
+    margin: 0;
+    width: 100%;
+  }
+
   .footer {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    opacity: 100%;
+    overflow: hidden;
+    position: static;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background: rgb(0, 0, 0, 0.4);
+    margin-top: 4%;
+    border-top: 1px solid;
+    border-color: hsla(0, 100%, 50%, 0.627);
   }
