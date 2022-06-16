@@ -10,9 +10,9 @@
     background-image: linear-gradient(rgba(0,0,0,0.7), rgb(9, 71, 31, 0.2)), url(images/soundwave2.jpeg);
     background-position: center;
     background-size: cover;
-    box-sizing: border-box;
     padding-left: 8%;
     padding-right: 8%;
+    box-sizing: border-box;
 }
 
 .navbar {
@@ -49,16 +49,15 @@ nav ul li a {
 .row {
     display: flex;
     height: 88%;
-    align-items: center left;
+    align-items: center;
 }
 
-.col {
-    flex-basis: 50%;
+.header-col {
+    flex-basis: 60%;
 }
 h1 {
     color: #fff;
-    font-size: 80px;
-    align-items: center left;
+    font-size: 60px;
 }
 p {
     color: #fff;
