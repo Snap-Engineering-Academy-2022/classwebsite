@@ -76,6 +76,12 @@
   img:nth-child(4) {
     animation-delay: 0s;
   }
+
+  main {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+  }
   
   .AlbumTitleBarContainer {
     text-align: center;
@@ -85,13 +91,13 @@
     }
 
   .Albums {
-    position: relative;
+    /* position: relative; */
     justify-content: center;
-    float: left;
+    /* float: left; */
     text-align: center;
-    margin-top: -50px;
+    /* margin-top: -50px;
     margin-left: 75px;
-    border-radius: 5px;
+    border-radius: 5px; */
     color: rgb(132, 132, 132);
   }
 
@@ -99,16 +105,16 @@
     color: white;
     height: 50px;
     width: 350px;
-    margin-left: 600px;
+    /* margin-left: 600px;
     margin-top: 50px;
-    margin-bottom: 400;
+    margin-bottom: 400; */
     font-size: 1.5rem;
-    position: relative;
+    /* position: relative; */
   }
 
   .rightContainer {
     justify-content: center;
-    justify-items: center;
+    /* justify-items: center; */
   }
 
   .MacAlbumSongs {
