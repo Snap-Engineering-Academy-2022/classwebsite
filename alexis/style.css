@@ -71,7 +71,7 @@
   .albumImageContainer {
     padding-left: 4%;
     padding-right: 4%;
-    max-width: 600px;
+    width: 100%;
   }
 
   /* AlbumDescriptionContainer - displays the album title and artist name */
@@ -79,8 +79,9 @@
     background-color: black;
     text-align: center;
     color: white;
-    padding-left: 4%;
-    padding-right: 4%;
+    margin-left: 4%;
+     margin-right: 4%;
+    width: 100%;
   }
 
   /* FavSongsContainer - uses the Spotify embedded audio to display favorite songs and honorable mentions */
@@ -88,6 +89,11 @@
     text-align: center; 
     padding-left: 4%;
     padding-right: 4%;
+    width: 100%;
+  }
+
+  #secondSlipknotItem{
+    margin-left: 4%;
   }
 
   .footer {
