@@ -45,3 +45,6 @@ const handleScrollAnimation = () => {
 window.addEventListener("scroll", () => { 
   handleScrollAnimation();
 });
+
+
+albumImage = document.getElementsByName
