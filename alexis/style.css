@@ -5,9 +5,18 @@
   
   body {
     font-family: Arial, Helvetica, sans-serif;
-    /* style="background-image: url('../alexis/assets/images/slipknot_banner.png');" */
+    background-color: black;
+    margin: 0;
+  }
+
+  #slipknotContainerBackground{
+    font-family: Arial, Helvetica, sans-serif;
     background-image: url('../alexis/assets/images/slipknot_banner.png');
     background-color: black;
+  }
+
+  #nothingButThievesContainerBackground{
+    background-color: rgb(29, 133, 202);
   }
   
   header {
@@ -88,9 +97,9 @@
     width: 40%;
   } */
 
-  /* a.disabled {
+  a.disabled {
     pointer-events: none;
     cursor: default;
-  } */
+  }
 
   
