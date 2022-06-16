@@ -1,0 +1,22 @@
+{
+  "name": "yasena",
+  "version": "1.0.0",
+  "description": "SEA website project 1",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w style/ -o css/ --recursive --usePolling"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Snap-Engineering-Academy-2022/classwebsite.git"
+  },
+  "author": "Yasen A",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Snap-Engineering-Academy-2022/classwebsite/issues"
+  },
+  "homepage": "https://github.com/Snap-Engineering-Academy-2022/classwebsite#readme",
+  "dependencies": {
+    "node-sass": "^7.0.1"
+  }
+}

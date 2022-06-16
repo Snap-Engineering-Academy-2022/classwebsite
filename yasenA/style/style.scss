@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?\family=Montserrat:wght@500&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+$primary-color: #5ebec4;
+$primary-color__light: #92f1f7;
+$primary-color__dark: #238d94;
+
+$secondary-color: #fdf5df;
+$secondary-color__light: #ffffff;
+$secondary-color__dark: #cac2ad;
+
+$tertiary-color: #f92c85;
+$tertiary-color__light: #ff6bb4;
+$tertiary-color__dark: #c00059;
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+#nav-bar {
+  background-color: $primary-color;
+  height: 70px;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+}
+
+#nav-bar ul {
+  display: flex;
+  flex-flow: row;
+  width: 25vw;
+  margin-left: 10vw;
+}
+
+li {
+  display: flex;
+  list-style: none;
+  width: 100%;
+  font-size: 2.4rem;
+  letter-spacing: 0.3rem;
+  font-weight: 700;
+  color: black;
+  text-align: left;
+}
+
+//search bar
+.search {
+  width: 30vw;
+  position: relative;
+  display: flex;
+  justify-self: end;
+}
+
+.searchTerm {
+  border: none;
+  width: 60%;
+  border-right: none;
+  padding: 5px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+}
+.searchTerm::placeholder {
+  color: #b9cac2;
+}
+
+.searchTerm:focus {
+  color: black;
+}
+
+.searchButton {
+  width: 40px;
+  height: 38px;
+  border: 1px solid #00b4cc;
+  background: #00b4cc;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+//landing page
+.landing-page {
+  width: 100vw;
+  height: 95vh;
+  background-color: rgba($secondary-color, 0.9);
+  background-image: linear-gradient(rgba($secondary-color__light, 0.9), rgba($secondary-color, 0.9)), url(../resource/img/hero.jpg);
+  background-size: cover;
+  background-position: top;
+}
+
+.quote {
+  font-size: 5rem;
+  width: 68rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-110%, -50%);
+}
+
+.album {
+  width: 100vw;
+  height: 95vh;
+  position: relative;
+  background-color: rgba($secondary-color, 0.9);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+
+.album__img {
+  width: 640px;
+  height: 640px;
+  background-color: rgba($secondary-color, 0.9);
+  background-size: cover;
+  background-position: top;
+}
+
+.bg-white {
+  background-color: #ffffff;
+}
+
+.album__quote {
+  display: inline-block;
+  font-size: 5rem;
+  width: 68rem;
+}
+
+.album-plus .album__img {
+  background-image: url(../resource/img/ed_sher_plus.jpeg);
+}
+
+.album-x .album__img {
+  background-image: url(../resource/img/ed_sher_x.jpeg);
+}
+
+.album-divide .album__img {
+  background-image: url(../resource/img/ed_sher_divide.png);
+}
+
+.album-n6 .album__img {
+  background-image: url(../resource/img/ed_sher_n6.png);
+}
+
+.album-equals .album__img {
+  background-image: url(../resource/img/ed_sher_equals.webp);
+}
