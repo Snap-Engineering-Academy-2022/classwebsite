@@ -1,12 +1,16 @@
+html {
+  height: auto;
+  min-height: 100%;
+}
+
 * {
   margin: 0px;
   padding: 0px;
   font-family: "Varela Round", sans-serif;
+  text-decoration: none;
 }
 
 body {
-  height: 100vh;
-  /* background-image: url("./images/nightbackground.jpg"); */
   background: rgb(6, 6, 6);
   background: linear-gradient(
     326deg,
@@ -15,15 +19,19 @@ body {
   );
 }
 
-.cols-2 {
-  display: grid;
-  grid-template-columns: 66% 33%;
+.box {
+  background-color: #444;
+  color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 150%;
 }
 
 .flex-col {
   display: flex;
   align-items: center;
   flex-direction: column;
+  justify-content: center;
 }
 
 .flex-row {
@@ -36,19 +44,23 @@ body {
 .album-cover {
   width: 100%;
   aspect-ratio: 1/1;
-  border-radius: 15px;
+  border-radius: 2.5%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
 
 .album-title {
+  font-size: 1rem;
   padding: 1rem 0rem 0rem 0.5rem;
   color: white;
 }
 
 .container {
-  margin: 2rem 5rem 2rem 5rem;
+  margin: 2rem 10rem 2rem 10rem;
 }
 
 .album-card {
+  margin: 1rem 1rem 1rem 1rem;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
     rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
   font-size: 1.25rem;
@@ -66,7 +78,14 @@ body {
     rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
+.album {
+  font-size: 1.25rem;
+  color: white;
+}
+
 .track-list {
+  width: 100%;
+  padding: 1rem;
   font-size: 1.25rem;
   font-weight: lighter;
   color: white;
@@ -76,20 +95,76 @@ body {
 .track-card {
   box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
     rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
-  width: 100%;
-  margin: 0.5rem;
   border-radius: 10px;
   background-color: #212121;
+  margin: 0.5rem 0 0.5rem 0;
   padding: 1rem;
-  transition: box-shadow 250ms ease-in-out;
+  transition-property: box-shadow;
+  transition: 250ms ease-out;
 }
 
 .track-card:hover {
   cursor: pointer;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
     rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  /* height: 10rem; */
 }
 
-.track-title {
-  flex-shrink: 0;
+.other-albums {
+  /* background-color: gray; */
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+
+/* Desktop - 1440p width and greater */
+/* Mobile - <= 1024 */
+
+@media screen and (min-width: 1025px) {
+  .wrapper {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: 33% 33% 33%;
+    color: #444;
+  }
+
+  .a {
+    grid-column: 1 / span 2;
+  }
+  .b {
+    grid-column: 3;
+    grid-row: 1 / span 2;
+  }
+  .c {
+    grid-row: 2;
+    grid-column: 1 / span 2;
+  }
+
+  .track-card {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .container {
+    margin: 2rem 2rem 2rem 2rem;
+  }
+
+  .wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .track-card {
+    width: 75%;
+  }
+
+  .b {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
 }
