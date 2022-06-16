@@ -16,13 +16,20 @@ h3 {
 }
 
 p {
-  font-size: 25px;
+  font-size: 23px;
   font-weight: 200;
   padding: 5px 0;
 }
 
-img {
-  /* display: block; */
+.arrow-icon {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+
+.arrow-icon img {
+  width: 40x;
+  height: 40px;
 }
 
 .logo {
@@ -46,6 +53,11 @@ img {
   right: 0;
   left: 0;
   margin: auto;
+  transition: transform 1s;
+}
+
+.artist img:hover {
+  transform: scale(1.1);
 }
 
 .artist .statement {
@@ -84,7 +96,7 @@ img {
 }
 
 .album-info .album-title {
-  height: 180px;
+  height: 100%;
   border-bottom: 1.5px solid black;
 }
 
@@ -109,6 +121,10 @@ img {
 
 .album-info .album-songs p {
   padding: 10px 0;
+}
+
+.album-info .album-songs .song-title {
+  width: 80%;
 }
 
 .album-info .album-songs .song-duration {
