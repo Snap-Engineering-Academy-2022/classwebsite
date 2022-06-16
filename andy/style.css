@@ -152,6 +152,7 @@ body {
 
 .other-albums .album-title {
   font-size: 0.75rem;
+  text-overflow: ellipsis;
 }
 
 /* Desktop - > 1024 */

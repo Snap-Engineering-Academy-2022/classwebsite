@@ -12,10 +12,17 @@ body{
     animation: loadTransition 1s;
 }
 
-.album-cover{
-    height: 700px;
-    
+
+p{
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
+
+.spotify-embedd{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
 img:hover{
     opacity: 0.5;
     color: white;
@@ -35,12 +42,9 @@ img:hover{
     }
 }
 
-
-
-.title{
-    font-family: 'Nothing You Could Do', cursive;
-    font-size: 60px;
-    padding-bottom: 30px;
+.album-cover{
+    height: 700px;
+    
 }
 
 .album-info{
@@ -53,12 +57,44 @@ img:hover{
    
 }
 
-.highlight{
+.gallery-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery-container img {
+    width: 600px;
+    padding: 10px;;
+}
+
+
+.gallery-container img:hover {
+    cursor: pointer;
+    opacity: 0.5;
+    transition: 0.7s;
+}
+
+.highlight, .lyrics, .spotify-embedd{
     padding-top: 40px;
     padding-bottom: 40px;
 }
 
-.lyrics{
-    padding-top: 40px;
-    padding-bottom: 40px;
+
+.title{
+    font-family: 'Nothing You Could Do', cursive;
+    font-size: 60px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
+
+.music-video:hover{
+border-color: aqua;cursor: pointer;
+opacity: 0.5;
+transition: 0.7s;
+}
+
+
+
+
