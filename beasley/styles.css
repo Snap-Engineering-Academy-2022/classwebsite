@@ -103,41 +103,6 @@
     font-size: 1.5rem;
   }
 
-  .rightContainer {
-    justify-content: center;
-  }
-
-  .MacAlbumSongs {
-    /* position: relative; */
-    margin-top: 180px;
-  }
-
-  .MacAlbumSongs h3 {
-    color: rgb(132, 132, 132);
-  }
-
-  .DrakeAlbumSongs {
-    /* position: relative; */
-    margin-top: 210px;
-  }
-
-  .DrakeAlbumSongs h3 {
-    color: rgb(132, 132, 132);
-  }
-
-
-  .ColeAlbumSongs {
-    /* position: relative; */
-    margin-top: 190px;
-  }
-
-  .ColeAlbumSongs h3 {
-    color: rgb(132, 132, 132);
-  }
-
-  .KendrickAlbum {
-    margin-bottom: 50px;
-  }
 
   .KendrickAlbumSongs h3 {
     color: rgb(132, 132, 132);
@@ -147,13 +112,9 @@
     border-radius: 5px;
   }
 
-  .MacMillerAlbum {
-    margin-bottom: 50px;
-  }
 
   #MMPic {
     border-radius: 5px;
-    background-color: lawngreen;
   }
 
   .DrakeAlbum {
@@ -166,6 +127,7 @@
   #DPic {
     border-radius: 5px;
   }
+  
 
   .JColeAlbum {
     margin-bottom: 50px;
@@ -173,6 +135,7 @@
 
   #JCPic {
     border-radius: 5px;
+
   }
 /* ----------------- */
   .LamarAlbumContainer, .MillerAlbumContainer, .JColeAlbumContainer, .DrakeAlbumContainer{
@@ -185,4 +148,8 @@
   .KendrickAlbumSong, .MacAlbumSong, .DrakeAlbumSong, .JColeAlbumSong {
     margin: 10px;
     width: 300px;
+  }
+
+  .KendrickAlbumSong, .MacAlbumSong, .DrakeAlbumSong, .JColeAlbumSong {
+    color: rgb(132, 132, 132);
   }
