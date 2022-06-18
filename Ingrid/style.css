@@ -67,8 +67,6 @@
     background-size:cover;
     text-align: center;
     padding-bottom:0px;
-    
-
 
 }
 
@@ -157,4 +155,106 @@
 .greenbg{
     height:20px;
     background-color:#7bff93;
+}
+
+.smiley{
+    position:absolute;
+    bottom: 20px;
+    left:-50x;
+    animation: fadeIn 5s;
+    top:150px;
+    
+}
+
+.smiley2{
+    position:absolute;
+    right:-10px;
+    animation: fadeIn 5s;
+    top:150px;
+    
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  .video-bg{
+    display:flex;
+    flex-direction: column;
+    padding-top:50px;
+    align-items: center;
+    justify-content: center;
+  }
+  .hardtimes{
+
+    padding-bottom: 50px;
+  }
+
+.yt{
+    border-radius: 20px;
+
+}
+.spot{
+    flex-direction:column;
+    padding-bottom:40px;
+}
+.spot_test{
+    align-content: center;
+    justify-content: center;
+}
+.look{
+    position: relative;
+}
+.spotify_pic{
+    position:absolute;
+    width:600px;
+    height:700px;
+    top:-800px;
+    right: 300px;
+    
+}
+.deco2{
+    position:relative;
+}
+
+.dec1{
+    position:absolute;
+    width: 50px;
+    right: 600px;
+    bottom: -300px;
+}
+
+.dec2{
+    position:absolute;
+    width:50px;
+    left: 600px;
+    top: 240px;
+}
+/* .music_section{
+    position:flex;
+    align-items: center;
+    justify-content: center;
+    display: block;
+    margin: 0 auto;
+} */
+
+.mv{
+    justify-content: center;
+    border-radius: 10px;
+}
+.music_video{
+    border-radius: 40px;
+}
+
+.div_video{
+    position: relative;
+}
+.title_vid{
+    position:absolute;
+    color:white;
+    bottom:500px;
+    right:700px;
+    font-size: 100px;
+    font-family: 'Oswald', sans-serif;
+    height:60px;
 }
