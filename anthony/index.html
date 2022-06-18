@@ -9,39 +9,75 @@
 </head>
 <body>
     <div class="main-content">
-        <h1 class="logo">The College Dropout</h1>
     
-        
-        <img src="img/thecollegedropout.jpg" alt="Sample Album Cover" />
-        
-        <h2>Tracklist</h2>
-        <ul>
-            <li>1. <a href="#">Intro</a></li>
-            <li>2. <a href="#">We Don't Care</a></li>
-            <li>3. <a href="#">Graduation Day</a></li>
-            <li>4. <a href="#">All Falls Down</a></li>
-            <li>5. <a href="#">I'll Fly Away</a></li>
-            <li>6. <a href="#">Spaceship</a></li>
-            <li>7. <a href="#">Jesus Walks</a></li>
-            <li>8. <a href="#">Never Let Me Down</a></li>
-            <li>9. <a href="#">Get Em High</a></li>
-            <li>10. <a href="#">Workout Plan</a></li>
-            <li>11. <a href="#">The New Workout Plan</a></li>
-            <li>12. <a href="#">Slow Jamz</a></li>
-            <li>13. <a href="#">Breathe In Breathe Out</a></li>
-            <li>14. <a href="#">School Spirit Skit 1</a></li>
-            <li>15. <a href="#">School Spirit</a></li>
-            <li>16. <a href="#">School Spirit Skit 2</a></li>
-            <li>17. <a href="#">Lil Jimmy Skit</a></li>
-            <li>18. <a href="#">Two Words</a></li>
-            <li>19. <a href="#">Through The Wire</a></li>
-            <li>20. <a href="#">Family Business</a></li>
-            <li>21. <a href="#">Last Call</a></li>
-        </ul>
+        <section class="album">
+            <img src="img/thecollegedropout.jpg" alt="The College Dropout Album Cover" />
+        </section>
 
-        <div class="spotify-player">
-        </div>
+        <section class="album-details">
+            <header>
+                <h1>The College Dropout</h1>
+                <h2>Kanye West</h2>
+            </header>
+        
+            <h3>Tracklist</h3>
+
+            <div class="track-list">
+                <div class="track-list-left">
+                    <ul>
+                        <li>1. <a href="#" id="intro">Intro</a></li>
+                        <li>2. <a href="#" id="wedontcare">We Don't Care</a></li>
+                        <li>3. <a href="#" id="graduationday">Graduation Day</a></li>
+                        <li>4. <a href="#" id="allfallsdown">All Falls Down</a></li>
+                        <li>5. <a href="#" id="illflyaway">I'll Fly Away</a></li>
+                        <li>6. <a href="#" id="spaceship">Spaceship</a></li>
+                        <li>7. <a href="#" id="jesuswalks">Jesus Walks</a></li>
+                        <li>8. <a href="#" id="neverletmedown">Never Let Me Down</a></li>
+                        <li>9. <a href="#" id="getemhigh">Get Em High</a></li>
+                        <li>10. <a href="#" id="workoutplan">Workout Plan</a></li>
+                        <li>11. <a href="#" id="thenewworkoutplan">The New Workout Plan</a></li>
+                    </ul>
+                </div>
+
+                <div class="track-list-right">
+                    <ul>
+                        <li>12. <a href="#" id="slowjamz">Slow Jamz</a></li>
+                        <li>13. <a href="#" id="breatheinbreatheout">Breathe In Breathe Out</a></li>
+                        <li>14. <a href="#" id="schoolspiritskit1">School Spirit Skit 1</a></li>
+                        <li>15. <a href="#" id="schoolspirit">School Spirit</a></li>
+                        <li>16. <a href="#" id="schoolspiritskit2">School Spirit Skit 2</a></li>
+                        <li>17. <a href="#" id="liljimmyskit">Lil Jimmy Skit</a></li>
+                        <li>18. <a href="#" id="twowords">Two Words</a></li>
+                        <li>19. <a href="#" id="throughthewire">Through The Wire</a></li>
+                        <li>20. <a href="#" id="familybusiness">Family Business</a></li>
+                        <li>21. <a href="#" id="lastcall">Last Call</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
     </div>
+    
+    <div class="player-content">
+        <h4>Now Playing</h4>
+
+        <section class="player">
+            <div id="player-message">
+                <span>No track selected.</span>
+            </div>
+
+            <div id="audio-player">
+            </div>
+        </section>
+        
+    </div>
+    
+    <footer>
+        <span>
+            <a href="https://www.awllms.com" >&copy; 2022 awllms</a>
+        </span>
+    </footer>
+
+    <script src="scripts/script.js"></script>
 
 </body>
 </html>

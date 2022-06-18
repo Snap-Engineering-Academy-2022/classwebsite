@@ -1,6 +1,7 @@
 html {
   height: auto;
   min-height: 100%;
+  color: white;
 }
 
 h1 {
@@ -150,8 +151,17 @@ body {
   padding: 1.5rem;
 }
 
+.left-align {
+  justify-content: left;
+}
+
+.header h1 {
+  margin-left: 10rem;
+}
+
 .other-albums .album-title {
   font-size: 0.75rem;
+  text-overflow: ellipsis;
 }
 
 /* Desktop - > 1024 */
@@ -167,6 +177,7 @@ body {
 
   .a {
     grid-column: 1 / span 2;
+    justify-items: center;
   }
   .b {
     grid-column: 3;
@@ -179,6 +190,10 @@ body {
 
   .track-card {
     width: 100%;
+  }
+
+  .album {
+    max-width: 75vh;
   }
 }
 
@@ -219,6 +234,14 @@ body {
   .other-albums {
     width: 75%;
   }
+}
+
+.footer {
+  height: 10rem;
+}
+
+.small {
+  font-size: small;
 }
 
 /* #imgs {

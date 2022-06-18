@@ -58,12 +58,29 @@
 }
 
 .music-icons a:link,
-a:visited {
+.music-icons a:visited {
   color: #b64022;
 }
 
 .music-icons a:hover {
   color: #f4e5c3;
+}
+
+.back-button a:link,
+.back-button a:visited {
+  color: #f4e5c3;
+}
+
+.back-button a:hover {
+  color: #9cbeb2;
+}
+
+.back-button {
+  padding-left: 3rem;
+  position: sticky;
+  position: fixed;
+  top: 2rem;
+  z-index: 10;
 }
 
 .waves {
