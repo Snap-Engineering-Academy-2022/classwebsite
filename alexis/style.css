@@ -97,6 +97,8 @@
     border: 1px solid;
     border-color: rgb(255, 0, 0);
     border-radius: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
   }
 
   /* FavSongsContainer - uses the Spotify embedded audio to display favorite songs and honorable mentions */
