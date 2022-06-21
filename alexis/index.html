@@ -2,37 +2,59 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Favorite Music Albums</title>
+  <title>Stairway To Bridges</title>
   <base href="/favoriteMusicAlbums">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="icon" type="image/x-icon" href="../alexis/assets/images/icons/favicon.ico">
   <link rel="stylesheet" href="../alexis/style.css">
- 
+  <script src="../alexis/app.js"></script>
 
 </head>
-<body style="background-color: black;">
-    <header>
-        <div>
-            <!-- <h4>Witty Title</h4> -->
+<body id="slipknotContainerBackground">
+    <header class="header">
+        <div class="navbar">
+                <!-- Slipknot Link -->
+                <div class="navigationArtistLinkContainer">
+                    <a href="../alexis/index.html" class="navigationArtistLink disabled">Slipknot</a>
+                </div>
+
+                <!-- Nothing But Thieves Link -->
+                <div class="navigationArtistLinkContainer">
+                    <a href="../alexis/nothingbutthieves.html" class="navigationArtistLink disabled">Nothing But Thieves</a>
+                </div>
+
+                <!-- Badflower Link -->
+                <div class="navigationArtistLinkContainer">
+                    <a href="../alexis/badflower.html" class="navigationArtistLink disabled">Badflower</a>
+                </div>
         </div>
     </header>
     
-
+    <!-- Slipknot - AlbumImageContainer -->
     <div class="albumItemContainer">
-    
-
+        <!-- AlbumImageContainer -->
         <div class="albumImageContainer">
             <img src="../alexis/assets/images/slipknot_cover.jpeg" width="100%">
         </div>
 
-        <div class="albumDescriptionContainer">    
+        <!-- AlbumDescriptionContainer -->
+        <div class="albumDescriptionContainer" >    
             <h4>Slipknot (10th Anniversary Edition)</h4>
             <h6>Slipknot</h6>
         </div>
 
+<<<<<<< HEAD
         <div style="width: 100%; text-align: center; align-self: center;">
             <h4>Favorite Song</h4>
             <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/1g8lVIsEkDaGD1nKw6fwUb?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+=======
+        <!-- FavSongsContainer -->
+        <div class="favSongsContainer">
+
+            <h4>Favorite Song</h4>
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/1g8lVIsEkDaGD1nKw6fwUb?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+            
+>>>>>>> e13fd0d583d4bcd81f2c16881852a1a562594cf1
             <h4>Honorable Mentions</h4>
             <!-- <h6>Wait and Bleed</h6> -->
             <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/2gscB6kDOmrv1P6qs2KXE3?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
@@ -42,60 +64,72 @@
         
     </div>
 
+    <!-- Nothing But Thieves - AlbumImageContainer -->
     <div class="albumItemContainer">
-
-        <div class="albumDescriptionContainer">    
+        <!-- AlbumDescriptionContainer -->
+        <div class="albumDescriptionContainer" >    
             <h4>Moral Panic II</h4>
             <h6>Nothing But Thieves</h6>
         </div>
 
+        <!-- AlbumImageContainer -->
         <div class="albumImageContainer">
-            <img src="../alexis/assets/images/moral_panic_2_cover.jpeg" width="80%">
+            <img src="../alexis/assets/images/moral_panic_2_cover.jpeg" width="100%">
         </div>
-    
-        <div style="width: 60%; text-align: center; padding: 5%; align-self: center;">
+        
+        <!-- FavSongsContainer -->
+        <div class="favSongsContainer">
+            
             <h4>Favorite Song</h4>
-            <iframe src="https://embed.spotify.com/?uri=spotify:track:5I8Msrarucgn1tPVVvLp2T" style="width:300px; height:80px;" frameborder="0" allowTransparency="true"></iframe>
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/5I8Msrarucgn1tPVVvLp2T?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+            
             <h4>Honorable Mentions</h4>
-            <h6>Your Blood</h6>
-            <h6>Ce n'est Rien</h6>
+            <!-- Your Blood -->
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/6rH6a6xRZ9SU1aWo8ntr4n?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+            <!-- <h6>Ce n'est Rien</h6> -->
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/0bJ3tEUaUQewD9EUTuh2XX?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
         </div>
 
-    </div>
+    </div>  
 
+    <!-- Bad Flower - AlbumImageContainer -->
     <div class="albumItemContainer">
-
+        <!-- AlbumImageContainer -->
         <div class="albumImageContainer">
-            <img src="../alexis/assets/images/ok_im_sick_cover.jpeg" width="80%">
+            <img src="../alexis/assets/images/ok_im_sick_cover.jpeg" width="100%">
         </div>
 
+        <!-- AlbumDescriptionContainer -->
         <div class="albumDescriptionContainer">    
             <h4>OK, I'M SICK</h4>
             <h6>Badflower</h6>
         </div>
 
-        <div style="width: 60%; text-align: center; padding: 5%; align-self: center;">
+        <!-- FavSongsContainer -->
+        <div class="favSongsContainer">
+            
             <h4>Favorite Song</h4>
-            <iframe src="https://embed.spotify.com/?uri=spotify:track:0Ms6qCqm8sqDKQpmVhhtTS" style="width:300px; height:80px;" frameborder="0" allowTransparency="true"></iframe>
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/0Ms6qCqm8sqDKQpmVhhtTS?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+            
             <h4>Honorable Mentions</h4>
-            <h6>The Jester</h6>
-            <h6>Soap</h6>
+            <!-- The Jester -->
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/28KccB3Iw5Gg8MjKewEQFW?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+            <!-- Soap -->
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/1FBabxuq2tJteTDDHNjLGU?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+
         </div>
         
     </div>
 
-      
     <div class="footer">
-        <div style="display: flex; flex-direction: row; justify-content: center">
-            <div class="footerImageContainer">
-                <!-- <img src="../alexis/assets/images/slipknot-group-photo.png" width="40%"/> -->
-            </div>
-            <div class="footerTextContainer">
-                <!-- <h4>Created By The One...The Only...Alexis Rodriguez</h4> -->
-            </div>
+        <div id="floatingImageContainer" >
+            <img id="floatingImage" src="../alexis/assets/images/slipknot-group-photo.png" />
         </div>
-       
+        <div>
+            <h4>Created By The One...The Only...Alexis Rodriguez</h4>
+        </div> 
     </div>
+    
 
 </body>
 </html>

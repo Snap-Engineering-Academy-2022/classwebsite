@@ -1,52 +1,141 @@
 *{
     color: white;
+    cursor: url('../alexis/assets/images/icons/guitar_cursor.png'), auto;	
 }
   
   body {
     font-family: Arial, Helvetica, sans-serif;
-    /* cursor: url('../alexis/assets/images/grinch-icon.png'), auto;	 */
+    background-color: black;
+    margin: 0;
   }
-  
+
   header {
     background-color: black;
     text-align: center;
     font-size: 35px;
-    color: white;
+    border: 1px solid;
+    border-color: red;
+    border-radius: 8px;
+    margin-top: 4%;
+    margin-bottom: 2%;
+    margin-left: 4%;
+    margin-right: 4%;
   }
 
-  .footer {
-    position: sticky;
-    left: 0;
-    bottom: 0;
-    width: 75%;
+  @font-face {
+    font-family: SomethingStrange;
+    src: url(../alexis/assets/fonts/SomethingStrange-vjYD.ttf);
   }
 
+  /* Navbar - will display links to different artists and corresponding albums */
+  .navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-family: SomethingStrange;
+    font-size: 70px;
+  }
+
+  .navigationArtistLinkContainer{
+    padding: 4%;
+  }
+
+  .navigationArtistLink{
+    text-decoration: none;
+  }
+
+  a.disabled {
+    pointer-events: none;
+    cursor: default;
+  }
+
+  #slipknotContainerBackground{
+    font-family: 'Times New Roman', Helvetica, sans-serif;
+    background-image: url('../alexis/assets/images/slipknot_banner.png');
+    background-color: black;
+  }
+
+  #nothingButThievesContainerBackground{
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-image: url('../alexis/assets/images/slipknot_banner.png'); */
+    background-color: rgb(29, 133, 202);
+  }
+
+  #badflowerContainerBackground{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('../alexis/assets/images/slipknot_banner.png');
+    background-color: rgb(187, 193, 14);
+  }
+
+  /* Album Item - consists of the albumImageContainer, albumDescriptionContainer, and favSongsContainer. */
   .albumItemContainer {
     display: flex; 
     flex-direction: row; 
     justify-content: space-evenly;
-  }
-  
-  .albumImageContainer {
-    background-color: black; 
-    width: 70%;
-    text-align: center;
-    padding: 4%;
+    align-items: center;
+    padding-top: 4%;
+    padding-bottom: 4%;
   }
 
+  /* AlbumImageContainer - displays the album cover image */
+  .albumImageContainer {
+    padding-left: 4%;
+    padding-right: 4%;
+    width: 100%;
+  }
+
+  /* AlbumDescriptionContainer - displays the album title and artist name */
   .albumDescriptionContainer{
     background-color: black;
-    width: 70%;
     text-align: center;
-    padding: 4%;
     color: white;
-    align-self: center;
+    margin-left: 4%;
+    margin-right: 4%;
+    padding-top: 9%;
+    padding-bottom: 9%;
+    width: 100%;
+    border: 1px solid;
+    border-color: rgb(255, 0, 0);
+    border-radius: 8px;
   }
 
-  .footerImageContainer{
-    /* align-self: center; */
+  /* FavSongsContainer - uses the Spotify embedded audio to display favorite songs and honorable mentions */
+  .favSongsContainer{
+    text-align: center; 
+    padding-left: 4%;
+    padding-right: 4%;
+    width: 100%;
   }
 
-  .footerTextContainer{
-    /* align-self: center; */
+  #floatingImageContainer{
+    display: inline-block;
+    left: 0px;
+    top: 0px;
+    width: 25%;
+    overflow:hidden;
+    position: sticky;
+    bottom: 0;
+  }
+
+  #floatingImage{
+    float: left;
+    margin: 0;
+    width: 100%;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    opacity: 100%;
+    overflow: hidden;
+    position: static;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background: rgb(0, 0, 0, 0.4);
+    margin-top: 4%;
+    border-top: 1px solid;
+    border-color: hsla(0, 100%, 50%, 0.627);
   }
