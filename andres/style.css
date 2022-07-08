@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+    background-image: url("assets/background.avif"); 
+    color: white;
+    animation: loadTransition 1s;
+}
+
+
+p{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.spotify-embedd{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+img:hover{
+    opacity: 0.5;
+    color: white;
+}
+
+
+@keyframes loadTransition{
+
+    from{
+        opacity: 0;
+        transform: translateY(-20px);
+      
+    }
+    to{
+        opacity: 1;
+       transform: translate(0);
+    }
+}
+
+.album-cover{
+    height: 700px;
+    
+}
+
+.album-info{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Overpass Mono', monospace;
+    font-size: 28px;
+    width:1200px;
+    margin: 0 auto;
+   
+}
+
+.gallery-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery-container img {
+    width: 600px;
+    padding: 10px;;
+}
+
+
+.gallery-container img:hover {
+    cursor: pointer;
+    opacity: 0.5;
+    transition: 0.7s;
+}
+
+.highlight, .lyrics, .spotify-embedd{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+
+.title{
+    font-family: 'Nothing You Could Do', cursive;
+    font-size: 60px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.music-video:hover{
+border-color: aqua;cursor: pointer;
+opacity: 0.5;
+transition: 0.7s;
+}
+
+
+
+
