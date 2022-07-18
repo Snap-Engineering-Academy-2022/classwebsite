@@ -1,6 +1,6 @@
 *{
     color: white;
-    cursor: url('../alexis/assets/images/icons/guitar_cursor.png'), auto;	
+    cursor: url('./assets/images/icons/guitar_cursor.png'), auto;	
 }
   
   body {
@@ -24,7 +24,7 @@
 
   @font-face {
     font-family: SomethingStrange;
-    src: url(../alexis/assets/fonts/SomethingStrange-vjYD.ttf);
+    src: url(./assets/fonts/SomethingStrange-vjYD.ttf);
   }
 
   /* Navbar - will display links to different artists and corresponding albums */
@@ -51,19 +51,19 @@
 
   #slipknotContainerBackground{
     font-family: 'Times New Roman', Helvetica, sans-serif;
-    background-image: url('../alexis/assets/images/slipknot_banner.png');
+    background-image: url('./assets/images/slipknot_banner.png');
     background-color: black;
   }
 
   #nothingButThievesContainerBackground{
     font-family: Arial, Helvetica, sans-serif;
-    /* background-image: url('../alexis/assets/images/slipknot_banner.png'); */
+    /* background-image: url('./assets/images/slipknot_banner.png'); */
     background-color: rgb(29, 133, 202);
   }
 
   #badflowerContainerBackground{
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url('../alexis/assets/images/slipknot_banner.png');
+    background-image: url('./assets/images/slipknot_banner.png');
     background-color: rgb(187, 193, 14);
   }
 
